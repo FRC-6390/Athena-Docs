@@ -9,4 +9,3 @@ pre = "<b>12. </b>"
 ### Chapter X 
 
 # Some Chapter title
-Robots
