@@ -6,7 +6,7 @@ chapter = true
 pre = "<b>11. </b>"
 +++
 
-### Chapter X
+### Limelight
 
 # Some Chapter title
 

@@ -6,7 +6,7 @@ chapter = true
 pre = "<b>4. </b>"
 +++
 
-### Chapter X
+### Intro to FRC Programming
 
 # Some Chapter title
 

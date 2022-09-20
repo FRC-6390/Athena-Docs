@@ -6,7 +6,7 @@ chapter = true
 pre = "<b>6. </b>"
 +++
 
-### Chapter X
+### Driver Control
 
 # Some Chapter title
 

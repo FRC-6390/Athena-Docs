@@ -6,7 +6,7 @@ chapter = true
 pre = "<b>7. </b>"
 +++
 
-### Chapter X
+### Robot Drivetrain
 
 # Some Chapter title
 
