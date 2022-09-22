@@ -59,7 +59,9 @@ home = [ "HTML", "RSS", "JSON"]
   weight = 10
 
   [[menu.shortcuts]]
-  name = "<i class='fab fa-fw fa-github'></i> Projects repo"
+  name = '<i class="fa-regular fa-folder"></i> Projects repo'
   identifier = "project"
   url = "https://github.com/FRC-6390/Athena-Docs/tree/main/Projects"
   weight = 11
+
+  
