@@ -52,14 +52,14 @@ home = [ "HTML", "RSS", "JSON"]
   # Change the title separator. Default to "::".
   titleSeparator = "-"
   
-  [[Languages.en.menu.shortcuts]]
+  [[menu.shortcuts]]
   name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
   identifier = "repo"
   url = "https://github.com/FRC-6390/Athena-Docs"
   weight = 10
 
-  [[Languages.en.menu.shortcuts]]
+  [[menu.shortcuts]]
   name = "<i class='fab fa-fw fa-github'></i> Projects repo"
   identifier = "project"
-  url = "https://github.com/FRC-6390/Athena-Docs/main/projects"
+  url = "https://github.com/FRC-6390/Athena-Docs/tree/main/Projects"
   weight = 11
