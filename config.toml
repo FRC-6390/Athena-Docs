@@ -16,9 +16,9 @@ home = [ "HTML", "RSS", "JSON"]
   # See the config.toml file from this documentation site to have an example.
   editURL = ""
   # Author of the site, will be used in meta information
-  author = ""
+  author = "Mathias Petersen & Mohammad Awwad"
   # Description of the site, will be used in meta information
-  description = ""
+  description = "https://github.com/FRC-6390/Athena-Docs/tree/main/content"
   # Shows a checkmark for visited pages on the menu
   showVisitedLinks = false
   # Disable search function. It will hide search bar
@@ -51,3 +51,15 @@ home = [ "HTML", "RSS", "JSON"]
   custom_css = ["css/foo.css", "css/bar.css"]
   # Change the title separator. Default to "::".
   titleSeparator = "-"
+  
+  [[Languages.en.menu.shortcuts]]
+  name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+  identifier = "repo"
+  url = "https://github.com/FRC-6390/Athena-Docs"
+  weight = 10
+
+  [[Languages.en.menu.shortcuts]]
+  name = "<i class='fab fa-fw fa-github'></i> Projects repo"
+  identifier = "project"
+  url = "https://github.com/FRC-6390/Athena-Docs/main/projects"
+  weight = 11
