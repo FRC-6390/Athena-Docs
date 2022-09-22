@@ -7,6 +7,6 @@ pre: "<b>- </b>"
 description: ""
 ---
 
-# Chapter X
+# Device Firmware
 
 {{% children description="true" %}}
