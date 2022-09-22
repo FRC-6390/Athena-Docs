@@ -3,7 +3,10 @@ title: "VSCode"
 date: 2022-09-16T08:57:12-07:00
 description: " "
 weight: 15
+
 ---
+
+![Cat](/gifs/cat.gif)
 
 #### What is VS Code
 Visual Studio Code is an Integrated Development Environment or IDE, An IDE is often a program that programmers use to code and compile projects. Visual Studio Code is a versatile platform and can be used with almost any language. Along with being able to support many languages, it has a large community creating extensions which allow you to personalize, improve workflow, and add more support for even more languages.
