@@ -6,7 +6,6 @@ weight: 15
 
 ---
 
-![Cat](/gifs/cat.gif)
 
 #### What is VS Code
 Visual Studio Code is an Integrated Development Environment or IDE, An IDE is often a program that programmers use to code and compile projects. Visual Studio Code is a versatile platform and can be used with almost any language. Along with being able to support many languages, it has a large community creating extensions which allow you to personalize, improve workflow, and add more support for even more languages.
@@ -16,31 +15,47 @@ We will be using Visual Studio code in order to set up or java command-based pro
 #### Downloading VS Code
 To get started open the link bellow to download the VS Code installer for your platform
 https://code.visualstudio.com/docs/languages/java#_install-visual-studio-code-for-java  
-gif should go here
+![Downloaing VS Code](/gifs/image4.gif?classes=border,shadow)
 
-Once downloaded, run the installer and follow the default installation.
-The installer will install everything you’ll need, including a java JDK, 
+Once downloaded, run the installer and follow the default installation.  
+The installer will install everything you’ll need, including a java JDK,  
 Visual Studio Code and the required java extensions.  
 gif should go here
+![Java Installation](/gifs/image3.gif?classes=border,shadow)
 
 #### Downloading WPI Support For FRC 
 To add FRC support to Visual Studio Code, download the following:   
 https://github.com/wpilibsuite/allwpilib/releases  
-Make sure you are not downloading a pre-release, It should have a green **Latest** tag next to the title  
-gif should go here
+Make sure you are not downloading a pre-release, The one you download should have a green **Latest** tag next to the title  
+![Downloading WPI](/gifs/image13.gif?classes=border,shadow)
 
 Each season a new version comes out and you will need to update to that version if you wish to compete  
 
-Run the .Iso file that you just downloaded and run the Installer.exe program.
+Then run the .Iso file that you just downloaded and run the Installer.exe program.
 Choose the skip installing VS Code option as we have already installed it in the previous step above.  
 gif should go here  
+![Downloading WPI](/gifs/image9.gif?classes=border,shadow)
 
 ##### Verifying and Finishing Install
-Now the that we have finished downloading everything we need to do a few more things before we are free to use Visual Studio Code. First thing we need to check is if all of our java related tools were installed. Please make sure that java extension pack is installed.  
-gif should go here  
+Now the that we have finished downloading everything we need to do a few more things before we are free to start programming on Visual Studio Code. First thing we need to check after openning VS Code is if all of our java related tools were installed. Please make sure that the following java extension pack is installed.  
+![Downloading WPI](/gifs/image16.gif?classes=border,shadow)
+
+Now please confirm the following:  
+Ctrl + P, will open the Visual Studio Extensions Command Line, then type 
+“> java: configure java runtime”,   
+and verify that you are using java 11.  
+![Downloading WPI](/gifs/image2.gif?classes=border,shadow)
+
+If you do not see java 11 as an option you can find it here: https://adoptopenjdk.net/  
+
+Now we need to add the WPI support to Visual Studio Code, because we have only installed it to our system and have not added the proper extension into Visual Studio Code.  
+Please go to this folder within your computer “C:\Users\Public\wpilib\2021\vsCodeExtensions”  
+![Downloading WPI](/gifs/image17.gif?classes=border,shadow)
+
 
 Now open Visual Studio Code and go to extensions, we need to install the WPILib.vsix file into Visual Studio Code. Once in extensions go to the 3 dots and press “Install from VSIX” and install the WPILib.vsix file.  
 gif should go here 
+![Downloading WPI](/gifs/image10.gif?classes=border,shadow)
 
 #### Exploring VS Code 
 ##### File Management
