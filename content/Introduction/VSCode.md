@@ -7,7 +7,7 @@ weight: 1
 ---
 
 
-#### What is VS Code
+#### What is VS Code?
 Visual Studio Code is an Integrated Development Environment or IDE, An IDE is often a program that programmers use to code and compile projects. Visual Studio Code is a versatile platform and can be used with almost any language. Along with being able to support many languages, it has a large community creating extensions which allow you to personalize, improve workflow, and add more support for even more languages.
 
 We will be using Visual Studio code in order to set up or java command-based programming envirnoment for frc6390
