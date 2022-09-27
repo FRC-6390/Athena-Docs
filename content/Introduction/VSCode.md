@@ -1,5 +1,5 @@
 ---
-title: "VSCode"
+title: "VS Code"
 date: 2022-09-16T08:57:12-07:00
 description: " "
 weight: 15
@@ -19,8 +19,7 @@ https://code.visualstudio.com/docs/languages/java#_install-visual-studio-code-fo
 
 Once downloaded, run the installer and follow the default installation.  
 The installer will install everything you’ll need, including a java JDK,  
-Visual Studio Code and the required java extensions.  
-gif should go here
+Visual Studio Code and the required java extensions.
 ![Java Installation](/gifs/image3.gif?classes=border,shadow)
 
 #### Downloading WPI Support For FRC 
@@ -31,9 +30,8 @@ Make sure you are not downloading a pre-release, The one you download should hav
 
 Each season a new version comes out and you will need to update to that version if you wish to compete  
 
-Then run the .Iso file that you just downloaded and run the Installer.exe program.
+Then run the ".iso" file that you just downloaded and run the Installer.exe program.
 Choose the skip installing VS Code option as we have already installed it in the previous step above.  
-gif should go here  
 ![Downloading WPI](/gifs/image9.gif?classes=border,shadow)
 
 ##### Verifying and Finishing Install
@@ -41,7 +39,7 @@ Now the that we have finished downloading everything we need to do a few more th
 ![Downloading WPI](/gifs/image16.gif?classes=border,shadow)
 
 Now please confirm the following:  
-Ctrl + P, will open the Visual Studio Extensions Command Line, then type 
+(Ctrl + P), will open the Visual Studio Extensions Command Line, then type 
 “> java: configure java runtime”,   
 and verify that you are using java 11.  
 ![Downloading WPI](/gifs/image2.gif?classes=border,shadow)
@@ -61,29 +59,29 @@ gif should go here
 ##### File Management
 Visual Studio Code has lots of way to manage your files, you can open folders through the “Open Folder” option in the Explorer tab on the left.  
 You can also manage your files through the File button on the top of the window  
-gif should go here  
+![Downloading WPI](/gifs/image14.gif?classes=border,shadow)
 
 You can right click to bring up options within your current folder, like making new folders and files.   
-gif should go here 
+![Downloading WPI](/gifs/image12.gif?classes=border,shadow)
 
 ##### Extensions
 Visual Studio has lots of extensions, for almost anything you may need  
 Disabling and extension will stop it from working  
 Uninstalling an extension will remove it  
-gif should go here
+![Downloading WPI](/gifs/image7.gif?classes=border,shadow)
 
 ##### Terminal
 The terminal is a very useful tool and helps a lot you a lot to find issues within your code by displaying information and errors. The terminal is usually located at the bottom of your screen.  
-gif should go here  
+![Downloading WPI](/gifs/image5.gif?classes=border,shadow)
 
-If the terminal is missing go to the top left under Terminal and Press create new terminal (ctrl+~)  
+If the terminal is missing go to the top left under the Terminal tab and Press create new terminal or (ctrl+~)  
 
 ##### Personalization
 Visual Studio Code has lots of ways to personalize your workflow, check out the extensions and find some themes you think you may like.
 Personally we use “Material Icons” for my icons and
 Visual Studio’s built in theme “Abyss”
-image should go here  
+![Downloading WPI](/gifs/image11.png?classes=border,shadow)
 
-To change your theme do the following, ctrl + p, to open the Visual Studio Extensions Command Line, then type the following “> preferences: Color Theme”
+To change your theme do the following, (ctrl + p), to open the Visual Studio Extensions Command Line, then type the following “> preferences: Color Theme”
 
 
