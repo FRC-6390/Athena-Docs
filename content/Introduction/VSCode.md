@@ -1,8 +1,8 @@
 ---
 title: "VS Code"
 date: 2022-09-16T08:57:12-07:00
-description: " "
-weight: 15
+description: "How to get your computer ready for FRC"
+weight: 1
 
 ---
 
@@ -41,10 +41,9 @@ Now the that we have finished downloading everything we need to do a few more th
 Now please confirm the following:  
 (Ctrl + P), will open the Visual Studio Extensions Command Line, then type 
 “> java: configure java runtime”,   
-and verify that you are using java 11.  
+and verify that you are using a Java version above 11.  
+If you wish to download another version you can download it [here](https://adoptium.net/temurin/releases/?version=17).
 ![Downloading WPI](/gifs/image2.gif?classes=border,shadow)
-
-If you do not see java 11 as an option you can find it here: https://adoptopenjdk.net/  
 
 Now we need to add the WPI support to Visual Studio Code, because we have only installed it to our system and have not added the proper extension into Visual Studio Code.  
 Please go to this folder within your computer “C:\Users\Public\wpilib\2021\vsCodeExtensions”  

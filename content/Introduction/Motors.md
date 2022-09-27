@@ -2,20 +2,10 @@
 title: "Motors"
 date: 2022-09-21T13:58:56-07:00
 draft: false
-description: " "
+description: "Basic introduction to motors"
 weight: 0
 ---
 
 ## MOTORS
 
-asdas
-dasd
-s
-dsa
-das
-das
-dsa
-d
-as
-d
-sa
+In FRC it is important to know the hardware you will be working with, in this section we will cover popular motors you may encounter and how to tell the difference between

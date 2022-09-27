@@ -3,7 +3,7 @@ title: "WPILIB"
 date: 2022-09-21T13:58:45-07:00
 draft: false
 description: "An Introduction to the offical FRC Library and Game Tools"
-weight: 0
+weight: 2
 ---
 
 ![WPILib](/images/WPILib-Logo.png?width=150px&height=150px)
