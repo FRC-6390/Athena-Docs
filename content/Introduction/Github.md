@@ -5,6 +5,8 @@ description: " "
 weight: 2
 ---
 
+![Java Installation](/gifs/github/image11.png?width=150px&height=150px,classes=border,shadow)
+
 #### What is GitHub?
 Github is a web-based platform with desktop support used for version control. Git simplifies the process of working with other people and makes it easy to collaborate on projects. Team members can work on files and easily merge their changes in with the master branch of the project
 
@@ -13,15 +15,12 @@ Github is a web-based platform with desktop support used for version control. Gi
 * Increases efficiency and productivity
 * Free of Cost 
 
--add image  
--add image  
-
 #### Creating an Account
 * Visit https://github.com/join
 * Complete the required form
 * We will explore the website later
 
--add image 
+![Java Installation](/gifs/github/image10.png?classes=border,shadow)
 
 #### Downloading GitHub Desktop
 * It is an easy and accessible way to view vital information relating to push/pull and repository status
@@ -31,7 +30,7 @@ Github is a web-based platform with desktop support used for version control. Gi
 * Follow the installation process
 * Log in using your recently created account
 
--add image
+![Java Installation](/gifs/github/image8.png?width=600px&height=150px,classes=border,shadow)
 
 #### GitHub Cloning
 * Cloning a repository pulls down a full copy of the repository that GitHub has at that point of time
@@ -42,15 +41,16 @@ Github is a web-based platform with desktop support used for version control. Gi
 * https://github.com/FRC-6390/Learning-To-Program-2021-2022.git
 * Save into your Github folder which would be saved in the "documents" folder
 
--add image
--add gif
+![Java Installation](/gifs/github/image5.png?width=800px&height=150px,classes=border,shadow)
+![Java Installation](/gifs/github/image3.gif?width=600px&height=150px,classes=border,shadow)
 
 #### Pushing/Pulling on Github
 The “Git Pull” command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.   
 
 The “Git Push” command is used to upload your local repository content to a remote repository. Pushing is how you transfer commits from your local repository to  a remote repository, so that others can acces your recent changes and merge togather.  
 
--add image
+
+![Java Installation](/gifs/github/image16.png?width=600px&height=150px,classes=border)
 
 ##### Pull Details
 Here you will learn how to pull code on your VS Code editor  
@@ -61,8 +61,9 @@ Here you will learn how to pull code on your VS Code editor
 * If you have merge conflicts you may merge or sort them out
 * You are now up to date
 
--add image
--add gif
+![Java Installation](/gifs/github/image7.png?width=600px&height=150px,classes=border,shadow)
+![Java Installation](/gifs/github/image15.gif?width=600px&height=150px,classes=border,shadow)
+
 
 ##### Push Details
 Here you will learn how you can push your code changes from your local repository to update the remote github repository
@@ -76,15 +77,16 @@ Here you will learn how you can push your code changes from your local repositor
 * You have now updated the repository 
 * Others can now pull your changes
 
--add image
--add gif
+![Java Installation](/gifs/github/image14.png?width=600px&height=150px,classes=border,shadow)
+![Java Installation](/gifs/github/image6.gif?width=600px&height=150px,classes=border,shadow)
+
 
 #### Merging on GitHub
 Git Merging will combine multiple sequences of commits into one unified history. In the most frequent cases Git Merge is used to combine two different branches   
 
 A common example is if Person 1 Changed the same line of code as Person 2 in different branches, this will result in a Merge Conflict if you try to pull each others code, to fix this you would have to resolve the merge conflict and push your code again
 
--add image
+![Java Installation](/gifs/github/image2.png?width=600px&height=150px,classes=border,shadow)
 
 #### GitHub Extensions
 * Navigate to the extensions tab in VS Code
@@ -95,8 +97,8 @@ A common example is if Person 1 Changed the same line of code as Person 2 in dif
     * View changes
     * Navigate back to previous pushes
 
--add image  
--add gif
+
+![Java Installation](/gifs/github/image12.gif?width=600px&height=150px,classes=border,shadow)
 
 
 #### GitHub Website Workflow
@@ -105,3 +107,6 @@ A common example is if Person 1 Changed the same line of code as Person 2 in dif
 * Navigate to "Projects" tab in the repository 
 * Add and move around to-dos in kanban board to keep track of progress and maintain workflow
 * Navigate to “Code” tab to view all code easily and compare to old commits
+
+![Java Installation](/gifs/github/image9.png?width=600px&height=150px,classes=border,shadow)
+![Java Installation](/gifs/github/image4.png?width=600px&height=150px,classes=border,shadow)

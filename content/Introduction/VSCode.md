@@ -39,14 +39,14 @@ Now the that we have finished downloading everything we need to do a few more th
 ![Downloading WPI](/gifs/image16.gif?classes=border,shadow)
 
 Now please confirm the following:  
-(Ctrl + P), will open the Visual Studio Extensions Command Line, then type 
-“> java: configure java runtime”,   
+`Ctrl + P`, will open the Visual Studio Extensions Command Line, then type   
+`> java: configure java runtime`,   
 and verify that you are using a Java version above 11.  
 If you wish to download another version you can download it [here](https://adoptium.net/temurin/releases/?version=17).
 ![Downloading WPI](/gifs/image2.gif?classes=border,shadow)
 
 Now we need to add the WPI support to Visual Studio Code, because we have only installed it to our system and have not added the proper extension into Visual Studio Code.  
-Please go to this folder within your computer “C:\Users\Public\wpilib\2021\vsCodeExtensions”  
+Please go to this folder within your computer `C:\Users\Public\wpilib\2021\vsCodeExtensions`  
 ![Downloading WPI](/gifs/image17.gif?classes=border,shadow)
 
 
@@ -73,7 +73,7 @@ Uninstalling an extension will remove it
 The terminal is a very useful tool and helps a lot you a lot to find issues within your code by displaying information and errors. The terminal is usually located at the bottom of your screen.  
 ![Downloading WPI](/gifs/image5.gif?classes=border,shadow)
 
-If the terminal is missing go to the top left under the Terminal tab and Press create new terminal or (ctrl+~)  
+If the terminal is missing go to the top left under the Terminal tab and Press create new terminal or `ctrl+~`  
 
 ##### Personalization
 Visual Studio Code has lots of ways to personalize your workflow, check out the extensions and find some themes you think you may like.
@@ -81,6 +81,6 @@ Personally we use “Material Icons” for my icons and
 Visual Studio’s built in theme “Abyss”
 ![Downloading WPI](/gifs/image11.png?classes=border,shadow)
 
-To change your theme do the following, (ctrl + p), to open the Visual Studio Extensions Command Line, then type the following “> preferences: Color Theme”
+To change your theme do the following, `ctrl + p`, to open the Visual Studio Extensions Command Line, then type the following “> preferences: Color Theme”
 
 
