@@ -6,6 +6,7 @@ https://gohugo.io/getting-started/installing/
 ```
 cd themes/
 git clone https://github.com/matcornic/hugo-theme-learn.git
+cd ..
 ```
 
 # Run server
