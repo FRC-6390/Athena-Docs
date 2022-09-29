@@ -24,8 +24,24 @@ Please read up on [CAN] if you are sure about any information portaining to it.
 CAN is a very popular way to connect with your motors and many other systems of your robot
 CAN devices typically have expanded functionality built in by the manufacturer or vender because the capabilities of CAN are greatly expanded due to the fact that they are able to transfer more indepth information.
 
-Every CAN device is required to be assigned an ID and a bus, if your robot only has one bus
+Every CAN device is required to be assigned an ID, if your robot has multiple CAN busses you will need to specify what bus the motor is on
 
 ### PWM
 
 PWM is not as popular as a choice due to the fact that the information fed into the device and fed back are limit to only simplie values, do not let that discurage you from using PWM. PWM allows you to have access to the barebones of the motor so you are able to create and configure custom motor classes to your exact liking more easily. This allows you to better control and add feature to motor but with the draw back of more complexity in the code.
+
+
+## CAN Motor Controllers
+
+Here are some examples from popular vendors:
+
+[VictorSPX](https://store.ctr-electronics.com/victor-spx/)
+
+[TalonSRX](https://store.ctr-electronics.com/talon-srx/)
+
+
+## PWM Motor Controllers
+[SPARK](https://www.revrobotics.com/rev-11-1200/)
+
+## Dual Motor Controllers (CAN and PWM)
+[SPARK MAX](https://www.revrobotics.com/rev-11-2158/)
