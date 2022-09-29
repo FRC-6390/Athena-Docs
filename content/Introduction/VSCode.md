@@ -14,7 +14,7 @@ We will be using Visual Studio code in order to set up our java command-based pr
 
 #### Downloading VS Code
 To get started open the link bellow to download the VS Code installer for your platform.
-https://code.visualstudio.com/docs/languages/java#_install-visual-studio-code-for-java  
+[here](https://code.visualstudio.com/docs/languages/java#_install-visual-studio-code-for-java)  
 ![Downloaing VS Code](/gifs/image4.gif?classes=border,shadow)
 
 Once downloaded, run the installer and follow the default installation.  
@@ -24,7 +24,7 @@ Visual Studio Code and the required java extensions.
 
 #### Downloading WPI Support For FRC 
 To add FRC support to Visual Studio Code, download the following:   
-https://github.com/wpilibsuite/allwpilib/releases  
+[here](https://github.com/wpilibsuite/allwpilib/releases)  
 Make sure you are not downloading a pre-release, The one you download should have a green **Latest** tag next to the title.  
 ![Downloading WPI](/gifs/image13.gif?classes=border,shadow)
 
