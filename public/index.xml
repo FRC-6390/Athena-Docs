@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Athena Docs</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Athena Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Sep 2022 14:10:43 -0700</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VS Code</title>
+      <link>http://example.org/introduction/vscode/</link>
+      <pubDate>Fri, 16 Sep 2022 08:57:12 -0700</pubDate>
+      
+      <guid>http://example.org/introduction/vscode/</guid>
+      <description>What is VS Code? Visual Studio Code is an Integrated Development Environment or IDE, An IDE is often a program that programmers use to code and compile projects. Visual Studio Code is a versatile platform and can be used with almost any language. Along with being able to support many languages, it has a large community creating extensions which allow you to personalize, improve workflow, and add more support for even more languages.</description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>http://example.org/introduction/github/</link>
+      <pubDate>Wed, 21 Sep 2022 13:58:50 -0700</pubDate>
+      
+      <guid>http://example.org/introduction/github/</guid>
+      <description>What is GitHub? Github is a web-based platform with desktop support used for version control. Git simplifies the process of working with other people and makes it easy to collaborate on projects. Team members can work on files and easily merge their changes in with the master branch of the project
+ Removes the need of using USB’s Makes communication easier Increases efficiency and productivity Free of Cost  Creating an Account  Visit https://github.</description>
+    </item>
+    
+    <item>
+      <title>WPILIB</title>
+      <link>http://example.org/introduction/wpilib/</link>
+      <pubDate>Wed, 21 Sep 2022 13:58:45 -0700</pubDate>
+      
+      <guid>http://example.org/introduction/wpilib/</guid>
+      <description>WPILib is the official resource library by FIRST, Worcester Polytechnic Institute and WPILib contributors. It is required to be able to compete in FIRST Robotic Competitions as it contains the required libraries to allow your robot to communicate and compete on the field. You can read the offical WPILib Documentation here
+ What is WPILib?  WPILib is a library of pre-written code that allows you to control the hardware on your team&amp;rsquo;s robot.</description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>http://example.org/introduction/java/</link>
+      <pubDate>Wed, 21 Sep 2022 13:58:39 -0700</pubDate>
+      
+      <guid>http://example.org/introduction/java/</guid>
+      <description>If this is your first time learning Java or are relatively unexperienced we recommend learning from W3Schools. Make sure you properly understand the basic syntax and what methods and conditions are and how to make them.
+Getting Java Installed We recommend installing java with the VS Code Java download, please make note of the Java version you are downloading. We will be using Java 17 but anything above 11 should work.</description>
+    </item>
+    
+    <item>
+      <title>CAN Bus</title>
+      <link>http://example.org/introduction/can/</link>
+      <pubDate>Tue, 27 Sep 2022 14:10:43 -0700</pubDate>
+      
+      <guid>http://example.org/introduction/can/</guid>
+      <description>The CAN Bus is very important and you will most likely find yourself using it quite often as it provides amazing conveniences.
+ </description>
+    </item>
+    
+    <item>
+      <title>Alignment</title>
+      <link>http://example.org/robot-drivetrain/swerve/alignment/</link>
+      <pubDate>Wed, 21 Sep 2022 14:14:20 -0700</pubDate>
+      
+      <guid>http://example.org/robot-drivetrain/swerve/alignment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Motors</title>
+      <link>http://example.org/introduction/motors/</link>
+      <pubDate>Wed, 21 Sep 2022 13:58:56 -0700</pubDate>
+      
+      <guid>http://example.org/introduction/motors/</guid>
+      <description>MOTORS In FRC it is important to know the hardware you will be working with, in this section we will cover popular motors you may encounter and how to tell the difference between</description>
+    </item>
+    
+  </channel>
+</rss>
