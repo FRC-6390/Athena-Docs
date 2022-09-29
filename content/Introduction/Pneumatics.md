@@ -29,7 +29,7 @@ The Pneumatics Control Module (PCM) is a device that is CAN-based which provides
 ![Pneumatics](/gifs/pneumatics/controlmodule.png?width=250px&height=150px,classes=border,shadow)
 
 #### Wiring 
-To find out more details regarding how to wire your pneumatic system please vist the link attached https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/wiring-pneumatics.html 
+To find out more details regarding how to wire your pneumatic system please vist the link attached [here](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/wiring-pneumatics.html)  
 
 This is a simple diagram that can show you how to can get started with wiring and the difference between a single and double pneumatic solenoid system.
 

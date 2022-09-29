@@ -1,14 +1,14 @@
 ---
 title: "GitHub"
 date: 2022-09-21T13:58:50-07:00
-description: " "
+description: "Getting started with java"
 weight: 2
 ---
 
 ![Java Installation](/gifs/github/image11.png?width=150px&height=150px,classes=border,shadow)
 
 #### What is GitHub?
-Github is a web-based platform with desktop support used for version control. Git simplifies the process of working with other people and makes it easy to collaborate on projects. Team members can work on files and easily merge their changes in with the master branch of the project
+Github is a web-based platform with desktop support used for version control. Git simplifies the process of working with other people and makes it easy to collaborate on projects. Team members can work on files and easily merge their changes in with the master branch of the project.
 
 * Removes the need of using USB’s
 * Makes communication easier
@@ -53,7 +53,7 @@ The “Git Push” command is used to upload your local repository content to a 
 ![Java Installation](/gifs/github/image16.png?width=600px&height=150px,classes=border)
 
 ##### Pull Details
-Here you will learn how to pull code on your VS Code editor  
+Learning how to pull code on your VS Code editor 
 
 * Navigate to the Source Control Tab
 * Click the 3 dots icon …
@@ -82,9 +82,9 @@ Here you will learn how you can push your code changes from your local repositor
 
 
 #### Merging on GitHub
-Git Merging will combine multiple sequences of commits into one unified history. In the most frequent cases Git Merge is used to combine two different branches   
+Git Merging will combine multiple sequences of commits into one unified history. In the most frequent cases Git Merge is used to combine two different branches.  
 
-A common example is if Person 1 Changed the same line of code as Person 2 in different branches, this will result in a Merge Conflict if you try to pull each others code, to fix this you would have to resolve the merge conflict and push your code again
+A common example is if Person 1 Changed the same line of code as Person 2 in different branches, this will result in a Merge Conflict if you try to pull each others code, to fix this you would have to resolve the merge conflict and push your code again.
 
 ![Java Installation](/gifs/github/image2.png?width=600px&height=150px,classes=border,shadow)
 

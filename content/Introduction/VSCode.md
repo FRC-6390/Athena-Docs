@@ -10,10 +10,10 @@ weight: 1
 #### What is VS Code?
 Visual Studio Code is an Integrated Development Environment or IDE, An IDE is often a program that programmers use to code and compile projects. Visual Studio Code is a versatile platform and can be used with almost any language. Along with being able to support many languages, it has a large community creating extensions which allow you to personalize, improve workflow, and add more support for even more languages.
 
-We will be using Visual Studio code in order to set up or java command-based programming envirnoment for frc6390
+We will be using Visual Studio code in order to set up our java command-based programming envirnoment.
 
 #### Downloading VS Code
-To get started open the link bellow to download the VS Code installer for your platform
+To get started open the link bellow to download the VS Code installer for your platform.
 https://code.visualstudio.com/docs/languages/java#_install-visual-studio-code-for-java  
 ![Downloaing VS Code](/gifs/image4.gif?classes=border,shadow)
 
@@ -25,10 +25,10 @@ Visual Studio Code and the required java extensions.
 #### Downloading WPI Support For FRC 
 To add FRC support to Visual Studio Code, download the following:   
 https://github.com/wpilibsuite/allwpilib/releases  
-Make sure you are not downloading a pre-release, The one you download should have a green **Latest** tag next to the title  
+Make sure you are not downloading a pre-release, The one you download should have a green **Latest** tag next to the title.  
 ![Downloading WPI](/gifs/image13.gif?classes=border,shadow)
 
-Each season a new version comes out and you will need to update to that version if you wish to compete  
+Each season a new version comes out and you will need to update to that version if you wish to compete.  
 
 Then run the ".iso" file that you just downloaded and run the Installer.exe program.
 Choose the skip installing VS Code option as we have already installed it in the previous step above.  
@@ -77,10 +77,10 @@ If the terminal is missing go to the top left under the Terminal tab and Press c
 
 ##### Personalization
 Visual Studio Code has lots of ways to personalize your workflow, check out the extensions and find some themes you think you may like.
-Personally we use “Material Icons” for my icons and
-Visual Studio’s built in theme “Abyss”
+Personally we use “Material Icons” for our icons and
+Visual Studio’s built in theme “Abyss”.
 ![Downloading WPI](/gifs/image11.png?classes=border,shadow)
 
-To change your theme do the following, `ctrl + p`, to open the Visual Studio Extensions Command Line, then type the following “> preferences: Color Theme”
+To change your theme do the following, `ctrl + p`, to open the Visual Studio Extensions Command Line, then type the following `> preferences: Color Theme`
 
 
