@@ -1,12 +1,12 @@
 ---
-title: "Athena Docs"
+title: "FRC 6390 DOCS"
 ---
 
-# Athena Docs
+# FRC 6390 DOCS
 ---
 By [Hephaestus 6390](https://frc6390.ca)
 
-> Athena Docs is the knowledge of all Hephaestus 6390's programmers all compiled into one site. The purpose of this site is to a useful resource guide for anyone to use, we hope that you find what you may be looking for on this site.
+> Athena Docs is the knowledge of all Hephaestus 6390's programmers all compiled into one site. The purpose of this site is to a useful resource guide for anyone to use, a few things you can find and learn on this site are listed bellow.
 
 {{% children description = true depth = 2 %}}
 

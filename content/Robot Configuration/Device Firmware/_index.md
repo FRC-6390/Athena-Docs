@@ -8,5 +8,6 @@ description: " "
 ---
 
 # Device Firmware
+An introduction to getting all your electronics updated with the latest firmare in order to allow for successful compatibility and connection between different devices.
 
 {{% children description="true" %}}

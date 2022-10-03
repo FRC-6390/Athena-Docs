@@ -8,5 +8,6 @@ description: " "
 ---
 
 # Robot Configuration
+The robot configuration chapter allows you to learn the basic robot settup required inorder to get your robot ready to be programmed, connected and prepare it for competition.
 
 {{% children description="true" %}}

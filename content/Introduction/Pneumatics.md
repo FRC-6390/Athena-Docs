@@ -3,7 +3,7 @@ title: "Pneumatics"
 date: 2022-09-21T13:59:16-07:00
 draft: false
 description: "Intro to pneumatics and how they can be used"
-weight: 7
+weight: 6
 ---
 
 
