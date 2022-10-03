@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.102.3" />
-    <meta name="description" content=" ">
+    <meta name="description" content="Intro to pneumatics and how they can be used">
 <meta name="author" content="Mathias Petersen &amp; Mohammad Awwad">
 
     <link rel="icon" href="/images/Favicon.png" type="image/png">
 
-    <title>Intro to FRC Programming - Athena Docs</title>
+    <title>Pneumatics - Athena Docs</title>
 
     
     <link href="/css/nucleus.css?1664820966" rel="stylesheet">
@@ -37,7 +37,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/intro-to-frc-programming/">
+  <body class="" data-url="/introduction/pneumatics/">
     <nav id="sidebar" class="">
 
 
@@ -177,7 +177,7 @@
   
     
     <li data-nav-id="/introduction/" title="Introduction" class="dd-item
-        
+        parent
         
         
         ">
@@ -329,7 +329,7 @@
  
   
     
-      <li data-nav-id="/introduction/pneumatics/" title="Pneumatics" class="dd-item ">
+      <li data-nav-id="/introduction/pneumatics/" title="Pneumatics" class="dd-item active">
         <a href="/introduction/pneumatics/">
         Pneumatics
         
@@ -518,7 +518,7 @@
     
     <li data-nav-id="/intro-to-frc-programming/" title="Intro to FRC Programming" class="dd-item
         
-        active
+        
         
         ">
       <a href="/intro-to-frc-programming/">
@@ -1070,13 +1070,30 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
                   <span class="links">
                  
                  
-                   Intro to FRC Programming
+                   Pneumatics
                  
                   </span>
                 </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
                 
               </div>
             </div>
@@ -1085,68 +1102,41 @@
         
         </div>
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>
+              
+              Pneumatics
+            </h1>
           
 
         
 
 
-
-	<h1 id="intro-to-frc-programming">Intro to FRC Programming</h1>
-
-
-
-
-
-
-
-<ul class="children children-li">
-	
-
-	
-		
-	
-
-	
-
-	
-		
-	
-		
-			
-				
-<li>
-<a href="/intro-to-frc-programming/camera/" >Camera</a>
-</li>
-				
-
-				
-					
-<p> </p>
-					
-				
-			
-			
-		
-	
-
-	
-</ul>
+<h4 id="what-are-pneumatics-and-how-can-they-be-used">What Are Pneumatics And How Can They Be Used</h4>
+<p>Pneumatics are a useful device that can be used to create simple actions, they work by expanding and retracting an arm in a cylinder in which works by using compressed air. In the image bellow you will see a pnuematic cylinder that is currently in the retreacted state. In most cases when it comes to FRC robots they are used for expanding and retracting intake subsystems, movinf arms, or even pulling or pushing a robot for end game.</p>
+<p><img src="/gifs/pneumatics/pneumatics.png?width=250px&amp;height=150px,classes=border,shadow" alt="Pneumatics">
+<img src="/gifs/pneumatics/pneumatics2.png?width=250px&amp;height=150px,classes=border,shadow" alt="Pneumatics"></p>
+<h4 id="compressor">Compressor</h4>
+<p>Pnuematics work by using compressed stored air, but that air has to be collected is some way, therefor we use a compressor such as the one seen bellow.</p>
+<p><img src="/gifs/pneumatics/compressor.png?width=250px&amp;height=150px,classes=border,shadow" alt="Pneumatics"></p>
+<h4 id="air-tanks">Air Tanks</h4>
+<p>Air tanks and tubbing are essential pieces when it comes to working with pneumatic system as the air that is being compressed by the compressor must be stored in some way. Therefor it is important to insure that you have a goo and large enough storage system without any air leaks inorder to be able to use your pneumatic system effectivly.</p>
+<p><img src="/gifs/pneumatics/airtank.png?width=250px&amp;height=150px,classes=border,shadow" alt="Pneumatics"></p>
+<h4 id="control-module">Control Module</h4>
+<p>The Pneumatics Control Module (PCM) is a device that is CAN-based which provides you to control your pneumatic devices. The PCM allows you to control up to 8 pneumatic solenoids in order to perform a variety of tasks.</p>
+<p><img src="/gifs/pneumatics/controlmodule.png?width=250px&amp;height=150px,classes=border,shadow" alt="Pneumatics"></p>
+<h4 id="wiring">Wiring</h4>
+<p>To find out more details regarding how to wire your pneumatic system please vist the link attached <a href="https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/wiring-pneumatics.html" target="_blank" >here</a>
+</p>
+<p>This is a simple diagram that can show you how to can get started with wiring and the difference between a single and double pneumatic solenoid system.</p>
+<p><img src="/gifs/pneumatics/wiring.svg?width=900px&amp;height=150px,classes=border,shadow" alt="Pneumatics"></p>
 
 
-
-
-
-
-
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
-        
-            </div> 
         
         </div>
         
@@ -1178,8 +1168,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -1193,6 +1181,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1290,6 +1281,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -1306,6 +1298,9 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -1347,25 +1342,6 @@
                     
                     
 
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
                     
                         
             
@@ -1402,11 +1378,29 @@
             
         
                     
+            
+        
+                    
                         
             
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -1420,9 +1414,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1723,10 +1714,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/command-based-programming/" title="Command Based Programming"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/introduction/motors/" title="Motors"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/intro-to-frc-programming/camera/" title="Camera" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/introduction/cameras/" title="Cameras" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -1758,3 +1749,4 @@
 
   </body>
 </html>
+

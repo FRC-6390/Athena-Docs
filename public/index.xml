@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Athena Docs</title>
+    <title>FRC 6390 DOCS on Athena Docs</title>
     <link>http://example.org/</link>
-    <description>Recent content on Athena Docs</description>
+    <description>Recent content in FRC 6390 DOCS on Athena Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 27 Sep 2022 14:10:43 -0700</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
@@ -22,8 +22,8 @@
       <pubDate>Wed, 21 Sep 2022 13:58:50 -0700</pubDate>
       
       <guid>http://example.org/introduction/github/</guid>
-      <description>What is GitHub? Github is a web-based platform with desktop support used for version control. Git simplifies the process of working with other people and makes it easy to collaborate on projects. Team members can work on files and easily merge their changes in with the master branch of the project
- Removes the need of using USB’s Makes communication easier Increases efficiency and productivity Free of Cost  Creating an Account  Visit https://github.</description>
+      <description>What is GitHub? Github is a web-based platform with desktop support used for version control. Git simplifies the process of working with other people and makes it easy to collaborate on projects. Team members can work on files and easily merge their changes in with the master branch of the project.
+Removes the need of using USB’s Makes communication easier Increases efficiency and productivity Free of Cost Creating an Account Visit https://github.</description>
     </item>
     
     <item>
@@ -32,8 +32,7 @@
       <pubDate>Wed, 21 Sep 2022 13:58:45 -0700</pubDate>
       
       <guid>http://example.org/introduction/wpilib/</guid>
-      <description>WPILib is the official resource library by FIRST, Worcester Polytechnic Institute and WPILib contributors. It is required to be able to compete in FIRST Robotic Competitions as it contains the required libraries to allow your robot to communicate and compete on the field. You can read the offical WPILib Documentation here
- What is WPILib?  WPILib is a library of pre-written code that allows you to control the hardware on your team&amp;rsquo;s robot.</description>
+      <description>WPILib is the official resource library by FIRST, Worcester Polytechnic Institute and WPILib contributors. It is required to be able to compete in FIRST Robotic Competitions as it contains the required libraries to allow your robot to communicate and compete on the field. You can read the offical WPILib Documentation hereWhat is WPILib? WPILib is a library of pre-written code that allows you to control the hardware on your team&amp;rsquo;s robot.</description>
     </item>
     
     <item>
@@ -42,8 +41,8 @@
       <pubDate>Wed, 21 Sep 2022 13:58:39 -0700</pubDate>
       
       <guid>http://example.org/introduction/java/</guid>
-      <description>If this is your first time learning Java or are relatively unexperienced we recommend learning from W3Schools. Make sure you properly understand the basic syntax and what methods and conditions are and how to make them.
-Getting Java Installed We recommend installing java with the VS Code Java download, please make note of the Java version you are downloading. We will be using Java 17 but anything above 11 should work.</description>
+      <description>If this is your first time learning Java or are relatively unexperienced we recommend learning from W3Schools. Make sure you properly understand the basic syntaxand what methodsand conditionsare and how to make them.
+Getting Java Installed We recommend installing java with the VS Code Java download, please make note of the Java version you are downloading. We will be using Java 17 but anything above 11 should work.</description>
     </item>
     
     <item>
@@ -53,7 +52,38 @@ Getting Java Installed We recommend installing java with the VS Code Java downlo
       
       <guid>http://example.org/introduction/can/</guid>
       <description>The CAN Bus is very important and you will most likely find yourself using it quite often as it provides amazing conveniences.
- </description>
+CAN or Controller Area Network is a standard design to allow devices and microcontrollers to communicate with each other. It uses a pair of wires, typically Green and Yellow. CAN can be configured in 3 ways.
+Line Topology This is where each device connected links to the next device in the line with the end being terminated by a 120 ohm resisitor</description>
+    </item>
+    
+    <item>
+      <title>Motors</title>
+      <link>http://example.org/introduction/motors/</link>
+      <pubDate>Wed, 21 Sep 2022 13:58:56 -0700</pubDate>
+      
+      <guid>http://example.org/introduction/motors/</guid>
+      <description>MOTORS In FRC it is important to know the hardware you will be working with, in this section we will cover popular motors you may encounter and how to tell the difference between them
+When we talk about motors, we are talking more about motor controllers. Newer motors coming out may have this built in like the Falcon 500but many still require the speed controller.
+CAN vs PWM Please read up on [CAN] if you are sure about any information portaining to it.</description>
+    </item>
+    
+    <item>
+      <title>Pneumatics</title>
+      <link>http://example.org/introduction/pneumatics/</link>
+      <pubDate>Wed, 21 Sep 2022 13:59:16 -0700</pubDate>
+      
+      <guid>http://example.org/introduction/pneumatics/</guid>
+      <description>What Are Pneumatics And How Can They Be Used Pneumatics are a useful device that can be used to create simple actions, they work by expanding and retracting an arm in a cylinder in which works by using compressed air. In the image bellow you will see a pnuematic cylinder that is currently in the retreacted state. In most cases when it comes to FRC robots they are used for expanding and retracting intake subsystems, movinf arms, or even pulling or pushing a robot for end game.</description>
+    </item>
+    
+    <item>
+      <title>Cameras</title>
+      <link>http://example.org/introduction/cameras/</link>
+      <pubDate>Wed, 21 Sep 2022 13:59:10 -0700</pubDate>
+      
+      <guid>http://example.org/introduction/cameras/</guid>
+      <description>When it comes to competing in robot competitions it is is incredibly useful to have a secondary point of view for your robot which proves specifically useful when you are unable to see your robot in the field.
+Point Of View Point of view is an important factor when it comes to competing, for instance if you were to have an intake system that needs to grab power cells or cargo as seen in the previous years it may seem as if you are positioned propperly to intake when you likely are not.</description>
     </item>
     
     <item>
@@ -66,12 +96,39 @@ Getting Java Installed We recommend installing java with the VS Code Java downlo
     </item>
     
     <item>
-      <title>Motors</title>
-      <link>http://example.org/introduction/motors/</link>
-      <pubDate>Wed, 21 Sep 2022 13:58:56 -0700</pubDate>
+      <title>Introduction</title>
+      <link>http://example.org/driver-station/introduction/</link>
+      <pubDate>Wed, 21 Sep 2022 14:06:36 -0700</pubDate>
       
-      <guid>http://example.org/introduction/motors/</guid>
-      <description>MOTORS In FRC it is important to know the hardware you will be working with, in this section we will cover popular motors you may encounter and how to tell the difference between</description>
+      <guid>http://example.org/driver-station/introduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Camera</title>
+      <link>http://example.org/intro-to-frc-programming/camera/</link>
+      <pubDate>Wed, 21 Sep 2022 14:05:46 -0700</pubDate>
+      
+      <guid>http://example.org/intro-to-frc-programming/camera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CTRE</title>
+      <link>http://example.org/robot-configuration/device-firmware/ctre/</link>
+      <pubDate>Wed, 21 Sep 2022 14:01:12 -0700</pubDate>
+      
+      <guid>http://example.org/robot-configuration/device-firmware/ctre/</guid>
+      <description>CTR - Elctronics, also known as CTRE is one of the main FRC robot electronics provider while providing incredibly useful and neccesary tools for dignosing electronic devices and configurring.</description>
+    </item>
+    
+    <item>
+      <title>Driver Station</title>
+      <link>http://example.org/robot-configuration/driver-station/</link>
+      <pubDate>Wed, 21 Sep 2022 14:00:00 -0700</pubDate>
+      
+      <guid>http://example.org/robot-configuration/driver-station/</guid>
+      <description></description>
     </item>
     
   </channel>

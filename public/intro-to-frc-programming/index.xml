@@ -7,5 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Sep 2022 08:56:14 -0700</lastBuildDate><atom:link href="http://example.org/intro-to-frc-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Camera</title>
+      <link>http://example.org/intro-to-frc-programming/camera/</link>
+      <pubDate>Wed, 21 Sep 2022 14:05:46 -0700</pubDate>
+      
+      <guid>http://example.org/intro-to-frc-programming/camera/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

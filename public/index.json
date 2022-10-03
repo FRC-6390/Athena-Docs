@@ -4,175 +4,196 @@
 	"title": "VS Code",
 	"tags": [],
 	"description": "How to get your computer ready for FRC",
-	"content": "What is VS Code? Visual Studio Code is an Integrated Development Environment or IDE, An IDE is often a program that programmers use to code and compile projects. Visual Studio Code is a versatile platform and can be used with almost any language. Along with being able to support many languages, it has a large community creating extensions which allow you to personalize, improve workflow, and add more support for even more languages.\nWe will be using Visual Studio code in order to set up or java command-based programming envirnoment for frc6390\nDownloading VS Code To get started open the link bellow to download the VS Code installer for your platform https://code.visualstudio.com/docs/languages/java#_install-visual-studio-code-for-java\nOnce downloaded, run the installer and follow the default installation.\nThe installer will install everything you’ll need, including a java JDK,\nVisual Studio Code and the required java extensions. Downloading WPI Support For FRC To add FRC support to Visual Studio Code, download the following:\nhttps://github.com/wpilibsuite/allwpilib/releases\nMake sure you are not downloading a pre-release, The one you download should have a green Latest tag next to the title\nEach season a new version comes out and you will need to update to that version if you wish to compete\nThen run the \u0026ldquo;.iso\u0026rdquo; file that you just downloaded and run the Installer.exe program. Choose the skip installing VS Code option as we have already installed it in the previous step above.\nVerifying and Finishing Install Now the that we have finished downloading everything we need to do a few more things before we are free to start programming on Visual Studio Code. First thing we need to check after openning VS Code is if all of our java related tools were installed. Please make sure that the following java extension pack is installed.\nNow please confirm the following:\nCtrl + P, will open the Visual Studio Extensions Command Line, then type\n\u0026gt; java: configure java runtime,\nand verify that you are using a Java version above 11.\nIf you wish to download another version you can download it here. Now we need to add the WPI support to Visual Studio Code, because we have only installed it to our system and have not added the proper extension into Visual Studio Code.\nPlease go to this folder within your computer C:\\Users\\Public\\wpilib\\2021\\vsCodeExtensions\nNow open Visual Studio Code and go to extensions, we need to install the WPILib.vsix file into Visual Studio Code. Once in extensions go to the 3 dots and press “Install from VSIX” and install the WPILib.vsix file.\ngif should go here Exploring VS Code File Management Visual Studio Code has lots of way to manage your files, you can open folders through the “Open Folder” option in the Explorer tab on the left.\nYou can also manage your files through the File button on the top of the window\nYou can right click to bring up options within your current folder, like making new folders and files.\nExtensions Visual Studio has lots of extensions, for almost anything you may need\nDisabling and extension will stop it from working\nUninstalling an extension will remove it\nTerminal The terminal is a very useful tool and helps a lot you a lot to find issues within your code by displaying information and errors. The terminal is usually located at the bottom of your screen.\nIf the terminal is missing go to the top left under the Terminal tab and Press create new terminal or ctrl+~\nPersonalization Visual Studio Code has lots of ways to personalize your workflow, check out the extensions and find some themes you think you may like. Personally we use “Material Icons” for my icons and Visual Studio’s built in theme “Abyss” To change your theme do the following, ctrl + p, to open the Visual Studio Extensions Command Line, then type the following “\u0026gt; preferences: Color Theme”\n"
+	"content": "What is VS Code? Visual Studio Code is an Integrated Development Environment or IDE, An IDE is often a program that programmers use to code and compile projects. Visual Studio Code is a versatile platform and can be used with almost any language. Along with being able to support many languages, it has a large community creating extensions which allow you to personalize, improve workflow, and add more support for even more languages.\nWe will be using Visual Studio code in order to set up our java command-based programming envirnoment.\nDownloading VS Code To get started open the link bellow to download the VS Code installer for your platform. here\rOnce downloaded, run the installer and follow the default installation.\nThe installer will install everything you’ll need, including a java JDK,\nVisual Studio Code and the required java extensions. Downloading WPI Support For FRC To add FRC support to Visual Studio Code, download the following:\nhere\rMake sure you are not downloading a pre-release, The one you download should have a green Latest tag next to the title.\nEach season a new version comes out and you will need to update to that version if you wish to compete.\nThen run the \u0026ldquo;.iso\u0026rdquo; file that you just downloaded and run the Installer.exe program. Choose the skip installing VS Code option as we have already installed it in the previous step above.\nVerifying and Finishing Install Now the that we have finished downloading everything we need to do a few more things before we are free to start programming on Visual Studio Code. First thing we need to check after openning VS Code is if all of our java related tools were installed. Please make sure that the following java extension pack is installed.\nNow please confirm the following:\nCtrl + P, will open the Visual Studio Extensions Command Line, then type\n\u0026gt; java: configure java runtime,\nand verify that you are using a Java version above 11.\nIf you wish to download another version you can download it here\r. Now we need to add the WPI support to Visual Studio Code, because we have only installed it to our system and have not added the proper extension into Visual Studio Code.\nPlease go to this folder within your computer C:\\Users\\Public\\wpilib\\2021\\vsCodeExtensions\nNow open Visual Studio Code and go to extensions, we need to install the WPILib.vsix file into Visual Studio Code. Once in extensions go to the 3 dots and press “Install from VSIX” and install the WPILib.vsix file.\ngif should go here Exploring VS Code File Management Visual Studio Code has lots of way to manage your files, you can open folders through the “Open Folder” option in the Explorer tab on the left.\nYou can also manage your files through the File button on the top of the window\nYou can right click to bring up options within your current folder, like making new folders and files.\nExtensions Visual Studio has lots of extensions, for almost anything you may need\nDisabling and extension will stop it from working\nUninstalling an extension will remove it\nTerminal The terminal is a very useful tool and helps a lot you a lot to find issues within your code by displaying information and errors. The terminal is usually located at the bottom of your screen.\nIf the terminal is missing go to the top left under the Terminal tab and Press create new terminal or ctrl+~\nPersonalization Visual Studio Code has lots of ways to personalize your workflow, check out the extensions and find some themes you think you may like. Personally we use “Material Icons” for our icons and Visual Studio’s built in theme “Abyss”. To change your theme do the following, ctrl + p, to open the Visual Studio Extensions Command Line, then type the following \u0026gt; preferences: Color Theme\n"
 },
 {
 	"uri": "http://example.org/subsystems/intake/",
 	"title": "Intake",
 	"tags": [],
 	"description": " ",
-	"content": "Intake  "
+	"content": "Intake "
 },
 {
 	"uri": "http://example.org/introduction/",
 	"title": "Introduction",
 	"tags": [],
 	"description": " ",
-	"content": "Introduction  VS Code  How to get your computer ready for FRC\n GitHub    WPILIB  An Introduction to the offical FRC Library and Game Tools\n Java  Where to get and where to learn it\n CAN Bus  The wires that give us the power to do amazing things\n Motors  Basic introduction to motors\n "
+	"content": "Introduction VS Code\rHow to get your computer ready for FRC\nGitHub\rGetting started with java\nWPILIB\rAn Introduction to the offical FRC Library and Game Tools\nJava\rWhere to get and where to learn it\nCAN Bus\rThe wires that give us the power to do amazing things\nMotors\rBasic introduction to motors\nPneumatics\rIntro to pneumatics and how they can be used\nCameras\rVission to your robot\n"
 },
 {
 	"uri": "http://example.org/introduction/github/",
 	"title": "GitHub",
 	"tags": [],
-	"description": " ",
-	"content": "What is GitHub? Github is a web-based platform with desktop support used for version control. Git simplifies the process of working with other people and makes it easy to collaborate on projects. Team members can work on files and easily merge their changes in with the master branch of the project\n Removes the need of using USB’s Makes communication easier Increases efficiency and productivity Free of Cost  Creating an Account  Visit https://github.com/join Complete the required form We will explore the website later  Downloading GitHub Desktop  It is an easy and accessible way to view vital information relating to push/pull and repository status Simplifies your development workflow Visit https://desktop.github.com/ for the installation Download what is most suitable for your machine Follow the installation process Log in using your recently created account  GitHub Cloning  Cloning a repository pulls down a full copy of the repository that GitHub has at that point of time Open Github Desktop Click the “Add” Button Click “Clone Repository” Click “URL” and enter the repositiory URL that you wish to clone https://github.com/FRC-6390/Learning-To-Program-2021-2022.git Save into your Github folder which would be saved in the \u0026ldquo;documents\u0026rdquo; folder  Pushing/Pulling on Github The “Git Pull” command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.\nThe “Git Push” command is used to upload your local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repository, so that others can acces your recent changes and merge togather.\nPull Details Here you will learn how to pull code on your VS Code editor\n Navigate to the Source Control Tab Click the 3 dots icon … Select “Pull” If you have merge conflicts you may merge or sort them out You are now up to date  Push Details Here you will learn how you can push your code changes from your local repository to update the remote github repository\n Make your changes Navigate to the Source Control Tab Type in your commit message Click the check mark to Commit You have now saved your changes for yourself Click the 3 dots icon … and press “Push” You have now updated the repository Others can now pull your changes  Merging on GitHub Git Merging will combine multiple sequences of commits into one unified history. In the most frequent cases Git Merge is used to combine two different branches\nA common example is if Person 1 Changed the same line of code as Person 2 in different branches, this will result in a Merge Conflict if you try to pull each others code, to fix this you would have to resolve the merge conflict and push your code again\nGitHub Extensions  Navigate to the extensions tab in VS Code Search for “Git History” Click Install Allows you to:  View workflow View changes Navigate back to previous pushes    GitHub Website Workflow  Many features to be explored over time Projects Kanban Boards Navigate to \u0026ldquo;Projects\u0026rdquo; tab in the repository Add and move around to-dos in kanban board to keep track of progress and maintain workflow Navigate to “Code” tab to view all code easily and compare to old commits  "
+	"description": "Getting started with java",
+	"content": "\nWhat is GitHub? Github is a web-based platform with desktop support used for version control. Git simplifies the process of working with other people and makes it easy to collaborate on projects. Team members can work on files and easily merge their changes in with the master branch of the project.\nRemoves the need of using USB’s Makes communication easier Increases efficiency and productivity Free of Cost Creating an Account Visit https://github.com/join\rComplete the required form We will explore the website later Downloading GitHub Desktop It is an easy and accessible way to view vital information relating to push/pull and repository status Simplifies your development workflow Visit https://desktop.github.com/\rfor the installation Download what is most suitable for your machine Follow the installation process Log in using your recently created account GitHub Cloning Cloning a repository pulls down a full copy of the repository that GitHub has at that point of time Open Github Desktop Click the “Add” Button Click “Clone Repository” Click “URL” and enter the repositiory URL that you wish to clone https://github.com/FRC-6390/Learning-To-Program-2021-2022.git\rSave into your Github folder which would be saved in the \u0026ldquo;documents\u0026rdquo; folder Pushing/Pulling on Github The “Git Pull” command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.\nThe “Git Push” command is used to upload your local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repository, so that others can acces your recent changes and merge togather.\nPull Details Learning how to pull code on your VS Code editor\nNavigate to the Source Control Tab Click the 3 dots icon … Select “Pull” If you have merge conflicts you may merge or sort them out You are now up to date Push Details Here you will learn how you can push your code changes from your local repository to update the remote github repository\nMake your changes Navigate to the Source Control Tab Type in your commit message Click the check mark to Commit You have now saved your changes for yourself Click the 3 dots icon … and press “Push” You have now updated the repository Others can now pull your changes Merging on GitHub Git Merging will combine multiple sequences of commits into one unified history. In the most frequent cases Git Merge is used to combine two different branches.\nA common example is if Person 1 Changed the same line of code as Person 2 in different branches, this will result in a Merge Conflict if you try to pull each others code, to fix this you would have to resolve the merge conflict and push your code again.\nGitHub Extensions Navigate to the extensions tab in VS Code Search for “Git History” Click Install Allows you to: View workflow View changes Navigate back to previous pushes GitHub Website Workflow Many features to be explored over time Projects Kanban Boards Navigate to \u0026ldquo;Projects\u0026rdquo; tab in the repository Add and move around to-dos in kanban board to keep track of progress and maintain workflow Navigate to “Code” tab to view all code easily and compare to old commits "
 },
 {
 	"uri": "http://example.org/introduction/wpilib/",
 	"title": "WPILIB",
 	"tags": [],
 	"description": "An Introduction to the offical FRC Library and Game Tools",
-	"content": "WPILib is the official resource library by FIRST, Worcester Polytechnic Institute and WPILib contributors. It is required to be able to compete in FIRST Robotic Competitions as it contains the required libraries to allow your robot to communicate and compete on the field. You can read the offical WPILib Documentation here\n What is WPILib?  WPILib is a library of pre-written code that allows you to control the hardware on your team\u0026rsquo;s robot.\n WPILib makes writing code for your robot very easy but does not mean it supports every piece of hardware on your robot some hardware vendors require you to download their libraries to be able to use them. Popular vendors like [CRTE], [REV] and [Kauai] all have their own vendor libaries you will need to download\nGetting started We recommend you first check out and follow our VS Code setup and install as it has you install the required WPILib tools there, you can find the section specific for WPILib here\nFRC Game tools The FRC Game tools contains the LabVIEW runtime, which is needed for FRC Driver Station. The FRC Game tools include everything you will need to control your robot. It includes Driver Station and Roborio Imaging Tool.\nYou can download everything from National Instruments\nIt is recommended you uninstall any previous year\u0026rsquo;s tools and resources before installing next years, please check out the offical FRC guide here\nWPILib Tour Once you have everything installed it will be very useful to know where your WPILib installation is located, you will find your self coming to these folders more often than not\nThis is where you will find your WPILib installation, the current installation will be under the current season\u0026rsquo;s year (2022, 2023, \u0026hellip;) C:\\Users\\Public\\wpilib\nFolders to keep note of in here are vsCodeExtensions and vendordeps.\nvsCodeExtensions This folders contains all of the extensions needed for VS Code, if you decided not install the preconfigured WPILib VS Code\nvendrodeps Here is where some 3rd party libraries are needed to be moved to be properly installed, most installation tools will do this for you but not all\n"
+	"content": "\nWPILib is the official resource library by FIRST, Worcester Polytechnic Institute and WPILib contributors. It is required to be able to compete in FIRST Robotic Competitions as it contains the required libraries to allow your robot to communicate and compete on the field. You can read the offical WPILib Documentation here\rWhat is WPILib? WPILib is a library of pre-written code that allows you to control the hardware on your team\u0026rsquo;s robot.\nWPILib makes writing code for your robot very easy but does not mean it supports every piece of hardware on your robot some hardware vendors require you to download their libraries to be able to use them. Popular vendors like [CRTE], [REV] and [Kauai] all have their own vendor libaries you will need to download\nGetting started We recommend you first check out and follow our VS Code setup and install as it has you install the required WPILib tools there, you can find the section specific for WPILib here\rFRC Game tools The FRC Game tools contains the LabVIEW runtime, which is needed for FRC Driver Station. The FRC Game tools include everything you will need to control your robot. It includes Driver Station and Roborio Imaging Tool.\nYou can download everything from National Instruments\rIt is recommended you uninstall any previous year\u0026rsquo;s tools and resources before installing next years, please check out the offical FRC guide here\rWPILib Tour Once you have everything installed it will be very useful to know where your WPILib installation is located, you will find your self coming to these folders more often than not\nThis is where you will find your WPILib installation, the current installation will be under the current season\u0026rsquo;s year (2022, 2023, \u0026hellip;) C:\\Users\\Public\\wpilib\nFolders to keep note of in here are vsCodeExtensions and vendordeps.\nvsCodeExtensions This folders contains all of the extensions needed for VS Code, if you decided not install the preconfigured WPILib VS Code\nvendrodeps Here is where some 3rd party libraries are needed to be moved to be properly installed, most installation tools will do this for you but not all\n"
 },
 {
 	"uri": "http://example.org/subsystems/feeder/",
 	"title": "Feeder",
 	"tags": [],
 	"description": " ",
-	"content": "Feeder  "
+	"content": "Feeder "
 },
 {
 	"uri": "http://example.org/robot-configuration/",
 	"title": "Robot Configuration",
 	"tags": [],
 	"description": " ",
-	"content": "Robot Configuration  Device Firmware    "
+	"content": "Robot Configuration The robot configuration chapter allows you to learn the basic robot settup required inorder to get your robot ready to be programmed, connected and prepare it for competition.\nDevice Firmware\rDriver Station\r"
 },
 {
 	"uri": "http://example.org/introduction/java/",
 	"title": "Java",
 	"tags": [],
 	"description": "Where to get and where to learn it",
-	"content": "If this is your first time learning Java or are relatively unexperienced we recommend learning from W3Schools. Make sure you properly understand the basic syntax and what methods and conditions are and how to make them.\nGetting Java Installed We recommend installing java with the VS Code Java download, please make note of the Java version you are downloading. We will be using Java 17 but anything above 11 should work. If your installation version is not above Java 11 or you wish to change it you can download and install Java from Adoptium, the MSI installer should get everything installed and setup for you.\n"
+	"content": "\nIf this is your first time learning Java or are relatively unexperienced we recommend learning from W3Schools\r. Make sure you properly understand the basic syntax\rand what methods\rand conditions\rare and how to make them.\nGetting Java Installed We recommend installing java with the VS Code Java download\r, please make note of the Java version you are downloading. We will be using Java 17 but anything above 11 should work. If your installation version is not above Java 11 or you wish to change it you can download and install Java from Adoptium\r, the MSI installer should get everything installed and setup for you.\n"
 },
 {
 	"uri": "http://example.org/command-based-programming/",
 	"title": "Command Based Programming",
 	"tags": [],
 	"description": " ",
-	"content": "Command Based Programming   .\n"
+	"content": "Command Based Programming .\n"
 },
 {
 	"uri": "http://example.org/subsystems/shooter/",
 	"title": "Shooter",
 	"tags": [],
 	"description": " ",
-	"content": "Shooter  "
+	"content": "Shooter "
 },
 {
 	"uri": "http://example.org/introduction/can/",
 	"title": "CAN Bus",
 	"tags": [],
 	"description": "The wires that give us the power to do amazing things",
-	"content": "The CAN Bus is very important and you will most likely find yourself using it quite often as it provides amazing conveniences.\n "
+	"content": "\nThe CAN Bus is very important and you will most likely find yourself using it quite often as it provides amazing conveniences.\nCAN or Controller Area Network is a standard design to allow devices and microcontrollers to communicate with each other. It uses a pair of wires, typically Green and Yellow. CAN can be configured in 3 ways.\nLine Topology This is where each device connected links to the next device in the line with the end being terminated by a 120 ohm resisitor\nStar Topology This is where all the devices connect to a central hub\nRing Topology This is the same as Line Topology but the end of the line terminates at the point of origin\nWire Lengths Another thing that is very important to keep in mind is how long you make your CAN runs, try not to make any runs longer than 1 foot without a device. Try to keep your runs as short as possible\nOur team typically uses Line Topology, but it is important to know what topology you are using when you are trying to troubleshoot an issue. For example if a motor was acting up and not responding correctly or half the motors on the robot seem to not be working correctly. Knowing the robot uses line typology helps us know that at some point on a line a connection is bad causing everything past it to have a spotty connection too.\nCAN 2.0B Most devices you will encounter use this specific CAN protocol.\nIf your robot has a single CAN bus of this type be careful how many devices you connect to the line, once you start getting into the 10+ motor range you may start to see sperratic behavoir from your CAN devices or outright disconnecting/not working.\nThis is because CAN 2.0B has a major limitation on how much bandwidth is available on the line. The protocol can only hanlde upto 1Mb/s, so be mindful if you causing a lot of updates to your CAN devices.\nThis protocol only allows 8 bytes per frame, which is another limiting factor.\nCAN FD CAN FD greatly increases the amount of data that can be transferred, it allows up 10Mb/s. You will need a seperate device to run this line entirely, for example the CANivore\rThis protocol allows 64 bytes per frame.\nif you would like a more indepth look into CAN check out this\rfrom CTRE\n"
 },
 {
 	"uri": "http://example.org/intro-to-frc-programming/",
 	"title": "Intro to FRC Programming",
 	"tags": [],
 	"description": " ",
-	"content": "Intro to FRC Programming  "
+	"content": "Intro to FRC Programming Camera\r"
 },
 {
 	"uri": "http://example.org/subsystems/turret/",
 	"title": "Turret",
 	"tags": [],
 	"description": " ",
-	"content": "Turret  "
+	"content": "Turret "
 },
 {
 	"uri": "http://example.org/robot-configuration/device-firmware/",
 	"title": "Device Firmware",
 	"tags": [],
 	"description": " ",
-	"content": "Device Firmware  "
+	"content": "Device Firmware An introduction to getting all your electronics updated with the latest firmare in order to allow for successful compatibility and connection between different devices.\nCTRE\rCTR - Elctronics, also known as CTRE is one of the main FRC robot electronics provider while providing incredibly useful and neccesary tools for dignosing electronic devices and configurring.\n"
+},
+{
+	"uri": "http://example.org/introduction/motors/",
+	"title": "Motors",
+	"tags": [],
+	"description": "Basic introduction to motors",
+	"content": "MOTORS In FRC it is important to know the hardware you will be working with, in this section we will cover popular motors you may encounter and how to tell the difference between them\nWhen we talk about motors, we are talking more about motor controllers. Newer motors coming out may have this built in like the Falcon 500\rbut many still require the speed controller.\nCAN vs PWM Please read up on [CAN] if you are sure about any information portaining to it.\nCAN CAN is a very popular way to connect with your motors and many other systems of your robot CAN devices typically have expanded functionality built in by the manufacturer or vender because the capabilities of CAN are greatly expanded due to the fact that they are able to transfer more indepth information.\nEvery CAN device is required to be assigned an ID, if your robot has multiple CAN busses you will need to specify what bus the motor is on\nPWM PWM is not as popular as a choice due to the fact that the information fed into the device and fed back are limit to only simplie values, do not let that discurage you from using PWM. PWM allows you to have access to the barebones of the motor so you are able to create and configure custom motor classes to your exact liking more easily. This allows you to better control and add feature to motor but with the draw back of more complexity in the code.\nCAN Motor Controllers Here are some examples from popular vendors:\nVictorSPX\rTalonSRX\rPWM Motor Controllers SPARK\rDual Motor Controllers (CAN and PWM) SPARK MAX\r"
 },
 {
 	"uri": "http://example.org/driver-station/",
 	"title": "Driver Station",
 	"tags": [],
 	"description": " ",
-	"content": "Driver Station  "
+	"content": "Driver Station Introduction\r"
 },
 {
 	"uri": "http://example.org/subsystems/elevator/",
 	"title": "Elevator",
 	"tags": [],
 	"description": " ",
-	"content": "Elevator  "
+	"content": "Elevator "
+},
+{
+	"uri": "http://example.org/introduction/pneumatics/",
+	"title": "Pneumatics",
+	"tags": [],
+	"description": "Intro to pneumatics and how they can be used",
+	"content": "What Are Pneumatics And How Can They Be Used Pneumatics are a useful device that can be used to create simple actions, they work by expanding and retracting an arm in a cylinder in which works by using compressed air. In the image bellow you will see a pnuematic cylinder that is currently in the retreacted state. In most cases when it comes to FRC robots they are used for expanding and retracting intake subsystems, movinf arms, or even pulling or pushing a robot for end game.\nCompressor Pnuematics work by using compressed stored air, but that air has to be collected is some way, therefor we use a compressor such as the one seen bellow.\nAir Tanks Air tanks and tubbing are essential pieces when it comes to working with pneumatic system as the air that is being compressed by the compressor must be stored in some way. Therefor it is important to insure that you have a goo and large enough storage system without any air leaks inorder to be able to use your pneumatic system effectivly.\nControl Module The Pneumatics Control Module (PCM) is a device that is CAN-based which provides you to control your pneumatic devices. The PCM allows you to control up to 8 pneumatic solenoids in order to perform a variety of tasks.\nWiring To find out more details regarding how to wire your pneumatic system please vist the link attached here\rThis is a simple diagram that can show you how to can get started with wiring and the difference between a single and double pneumatic solenoid system.\n"
 },
 {
 	"uri": "http://example.org/driver-control/",
 	"title": "Driver Control",
 	"tags": [],
 	"description": " ",
-	"content": "Driver Control  "
+	"content": "Driver Control "
 },
 {
 	"uri": "http://example.org/subsystems/pneumatics/",
 	"title": "Pneumatics",
 	"tags": [],
 	"description": " ",
-	"content": "Pneumatics  "
+	"content": "Pneumatics "
 },
 {
 	"uri": "http://example.org/robot-drivetrain/",
 	"title": "Robot Drivetrain",
 	"tags": [],
 	"description": " ",
-	"content": "Robot Drivetrain  Swerve    "
+	"content": "Robot Drivetrain Swerve\r"
+},
+{
+	"uri": "http://example.org/introduction/cameras/",
+	"title": "Cameras",
+	"tags": [],
+	"description": "Vission to your robot",
+	"content": " When it comes to competing in robot competitions it is is incredibly useful to have a secondary point of view for your robot which proves specifically useful when you are unable to see your robot in the field.\nPoint Of View Point of view is an important factor when it comes to competing, for instance if you were to have an intake system that needs to grab power cells or cargo as seen in the previous years it may seem as if you are positioned propperly to intake when you likely are not. Therfore using cameras can allow for an advantange and allow for a secondary point of view, for more info regarding the programming aspect please visit the programming introduction to Cameras\r.\nAfter programming the camera you will then be able to acces it via the FRC Dashboard which we will get into more details about in the Robot Driver Station\rWiring When it comes to wiring USB Cameras it is extremely easy as all that is required is that you plug in the USB cable into the the USB port on the Roborio.\n"
 },
 {
 	"uri": "http://example.org/subsystems/",
 	"title": "Subsystems",
 	"tags": [],
 	"description": " ",
-	"content": "Subsystems  Intake    Feeder    Shooter    Turret    Elevator    Pneumatics    "
+	"content": "Subsystems Intake\rFeeder\rShooter\rTurret\rElevator\rPneumatics\r"
 },
 {
 	"uri": "http://example.org/debugging/",
 	"title": "Debugging",
 	"tags": [],
 	"description": " ",
-	"content": "Debugging  "
+	"content": "Debugging "
 },
 {
 	"uri": "http://example.org/leds/",
 	"title": "LEDS",
 	"tags": [],
 	"description": " ",
-	"content": "LEDS  "
+	"content": "LEDS "
 },
 {
 	"uri": "http://example.org/limelight/",
 	"title": "Limelight",
 	"tags": [],
 	"description": " ",
-	"content": "Limelight  "
+	"content": "Limelight "
 },
 {
 	"uri": "http://example.org/autonomous/",
 	"title": "Autonomous",
 	"tags": [],
 	"description": " ",
-	"content": "Autonomous  "
+	"content": "Autonomous "
 },
 {
 	"uri": "http://example.org/",
-	"title": "Athena Docs",
+	"title": "FRC 6390 DOCS",
 	"tags": [],
 	"description": "",
-	"content": "Athena Docs  By Hephaestus 6390\n Athena Docs is the knowledge of all Hephaestus 6390\u0026rsquo;s programmers all compiled into one site. The purpose of this site is to a useful resource guide for anyone to use, we hope that you find what you may be looking for on this site.\n  Introduction     VS Code  How to get your computer ready for FRC\n GitHub    WPILIB  An Introduction to the offical FRC Library and Game Tools\n Java  Where to get and where to learn it\n CAN Bus  The wires that give us the power to do amazing things\n Motors  Basic introduction to motors\n  Robot Configuration     Device Firmware     Command Based Programming      Intro to FRC Programming      Driver Station      Driver Control      Robot Drivetrain     Swerve     Subsystems     Intake    Feeder    Shooter    Turret    Elevator    Pneumatics     Debugging      LEDS      Limelight      Autonomous      "
+	"content": "FRC 6390 DOCS By Hephaestus 6390\rAthena Docs is the knowledge of all Hephaestus 6390\u0026rsquo;s programmers all compiled into one site. The purpose of this site is to a useful resource guide for anyone to use, a few things you can find and learn on this site are listed bellow.\nIntroduction\rVS Code\rHow to get your computer ready for FRC\nGitHub\rGetting started with java\nWPILIB\rAn Introduction to the offical FRC Library and Game Tools\nJava\rWhere to get and where to learn it\nCAN Bus\rThe wires that give us the power to do amazing things\nMotors\rBasic introduction to motors\nPneumatics\rIntro to pneumatics and how they can be used\nCameras\rVission to your robot\nRobot Configuration\rDevice Firmware\rDriver Station\rCommand Based Programming\rIntro to FRC Programming\rCamera\rDriver Station\rIntroduction\rDriver Control\rRobot Drivetrain\rSwerve\rSubsystems\rIntake\rFeeder\rShooter\rTurret\rElevator\rPneumatics\rDebugging\rLEDS\rLimelight\rAutonomous\r"
 },
 {
 	"uri": "http://example.org/robot-drivetrain/swerve/alignment/",
@@ -182,18 +203,39 @@
 	"content": ""
 },
 {
-	"uri": "http://example.org/introduction/motors/",
-	"title": "Motors",
+	"uri": "http://example.org/driver-station/introduction/",
+	"title": "Introduction",
 	"tags": [],
-	"description": "Basic introduction to motors",
-	"content": "MOTORS In FRC it is important to know the hardware you will be working with, in this section we will cover popular motors you may encounter and how to tell the difference between\n"
+	"description": " ",
+	"content": ""
+},
+{
+	"uri": "http://example.org/intro-to-frc-programming/camera/",
+	"title": "Camera",
+	"tags": [],
+	"description": " ",
+	"content": ""
+},
+{
+	"uri": "http://example.org/robot-configuration/device-firmware/ctre/",
+	"title": "CTRE",
+	"tags": [],
+	"description": "",
+	"content": "CTR - Elctronics, also known as CTRE is one of the main FRC robot electronics provider while providing incredibly useful and neccesary tools for dignosing electronic devices and configurring.\n"
+},
+{
+	"uri": "http://example.org/robot-configuration/driver-station/",
+	"title": "Driver Station",
+	"tags": [],
+	"description": " ",
+	"content": ""
 },
 {
 	"uri": "http://example.org/robot-drivetrain/swerve/",
 	"title": "Swerve",
 	"tags": [],
 	"description": " ",
-	"content": "Robot Drivetrain  Alignment    "
+	"content": "Robot Drivetrain Alignment\r"
 },
 {
 	"uri": "http://example.org/categories/",
