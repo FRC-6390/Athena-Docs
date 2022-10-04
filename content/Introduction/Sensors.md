@@ -1,8 +1,13 @@
 ---
 title: "Sensors"
 date: 2022-09-21T13:59:03-07:00
-draft: true
+draft: false
 description: " "
-weight: 9
+weight: 6
 ---
 
+Encoders
+Limit Switches
+IR Sensor
+IMU
+Ultrasonic sensor

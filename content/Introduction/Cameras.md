@@ -3,7 +3,7 @@ title: "Cameras"
 date: 2022-09-21T13:59:10-07:00
 draft: false
 description: "Vission to your robot"
-weight: 8
+weight: 9
 ---
 
 ![CAMERA](/gifs/camera/camera.jpg?width=200px&height=200px)
