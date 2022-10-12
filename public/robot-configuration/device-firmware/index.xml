@@ -8,12 +8,44 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 21 Sep 2022 14:00:14 -0700</lastBuildDate><atom:link href="http://example.org/robot-configuration/device-firmware/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CTRE</title>
+      <title>Limelight</title>
+      <link>http://example.org/robot-configuration/device-firmware/limelight/</link>
+      <pubDate>Wed, 21 Sep 2022 14:02:00 -0700</pubDate>
+      
+      <guid>http://example.org/robot-configuration/device-firmware/limelight/</guid>
+      <description>Limelight is an incredibly useful vision processing tool in FRC which allows you to make accurate predictions and measurments based off a reflective tape on the FRC field, as well as by being used as a normal camera.
+Downloading To get started we will need to install the latest Drivers, Image and Flasher from the Limelight Downloads PageDrivers After clicking the link to the Limelight downloads page you will be required to download the latest USB Driver and then run the .</description>
+    </item>
+    
+    <item>
+      <title>Kauai Labs (NavX)</title>
+      <link>http://example.org/robot-configuration/device-firmware/kauai-labs-navx/</link>
+      <pubDate>Wed, 21 Sep 2022 14:01:53 -0700</pubDate>
+      
+      <guid>http://example.org/robot-configuration/device-firmware/kauai-labs-navx/</guid>
+      <description>Kauai Labs, one of the main IMU board providers, well known for there 9-axis inertial magnetic sensor and motion processor called the navX2-MXP.
+Use Cases The navX2-MXP proccessor can help us obtain certain data, in which it can help us inhance our robot by giving us capabilities of programming specific features such as:
+Field-Oriented Drive Auto-balance Auto-rotate to angle Motion Detection Collision Detection And much more Software Installation Inorder for us to use the navX devices we will be required to download the latest build version which can be found hereAfterwards it will be best to follow the steps on the Kauai Labs Website.</description>
+    </item>
+    
+    <item>
+      <title>REV Robotics</title>
+      <link>http://example.org/robot-configuration/device-firmware/rev/</link>
+      <pubDate>Wed, 21 Sep 2022 14:01:16 -0700</pubDate>
+      
+      <guid>http://example.org/robot-configuration/device-firmware/rev/</guid>
+      <description>REV Robitcs is one of the main electronics provider in the FRC world as well as in other robotics competitions. Therefor REV has it own software interface that allows the configuration and for you to update the firmware of their own devices.
+REV Hardware Client The REV hardware client allows you to edit the configuration of your REV devices by connecting to them manually via a USB Type C. This means we will be able to configure devices such as Spark Max motor controllers, the Control Hub and even the Expansion Board.</description>
+    </item>
+    
+    <item>
+      <title>Cross The Road Electronics</title>
       <link>http://example.org/robot-configuration/device-firmware/ctre/</link>
       <pubDate>Wed, 21 Sep 2022 14:01:12 -0700</pubDate>
       
       <guid>http://example.org/robot-configuration/device-firmware/ctre/</guid>
-      <description>CTR - Elctronics, also known as CTRE is one of the main FRC robot electronics provider while providing incredibly useful and neccesary tools for dignosing electronic devices and configurring.</description>
+      <description>Cross The Road Elctronics, also known as CTRE is one of the main FRC robot electronics provider while allowing for incredibly useful and neccesary tools for dignosing electronic devices and configurring them.
+Pheonix Tools The Pheonix Library provided by CTRE is a great way to get started as they allow us to settup our devices once they are ready. The installation for the Pheonix Framework can be found here.</description>
     </item>
     
   </channel>

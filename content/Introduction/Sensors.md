@@ -2,7 +2,7 @@
 title: "Sensors"
 date: 2022-09-21T13:59:03-07:00
 draft: false
-description: " "
+description: "What are sensors and feedback"
 weight: 6
 ---
 

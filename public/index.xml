@@ -68,6 +68,16 @@ CAN vs PWM Please read up on [CAN] if you are sure about any information portain
     </item>
     
     <item>
+      <title>Sensors</title>
+      <link>http://example.org/introduction/sensors/</link>
+      <pubDate>Wed, 21 Sep 2022 13:59:03 -0700</pubDate>
+      
+      <guid>http://example.org/introduction/sensors/</guid>
+      <description>Some sensors have native support in WPI, but if you want to features offered by the vendor, you will need to install their custom vendor library.
+Accelerometers Accelerometers measure acceleration (rate of change of velocity), an accelerometer typically uses 3 axes to measure acceleration but some may only measure in one direction. WPI has support for both types of single and tri-axis accelerometers. AnalogAccleromter, ADXL345_I2C, ADXL345_SP, ADXL362 and BuiltInAccelerometer for the Robrio.</description>
+    </item>
+    
+    <item>
       <title>Pneumatics</title>
       <link>http://example.org/introduction/pneumatics/</link>
       <pubDate>Wed, 21 Sep 2022 13:59:16 -0700</pubDate>
@@ -114,12 +124,44 @@ Point Of View Point of view is an important factor when it comes to competing, f
     </item>
     
     <item>
-      <title>CTRE</title>
+      <title>Limelight</title>
+      <link>http://example.org/robot-configuration/device-firmware/limelight/</link>
+      <pubDate>Wed, 21 Sep 2022 14:02:00 -0700</pubDate>
+      
+      <guid>http://example.org/robot-configuration/device-firmware/limelight/</guid>
+      <description>Limelight is an incredibly useful vision processing tool in FRC which allows you to make accurate predictions and measurments based off a reflective tape on the FRC field, as well as by being used as a normal camera.
+Downloading To get started we will need to install the latest Drivers, Image and Flasher from the Limelight Downloads PageDrivers After clicking the link to the Limelight downloads page you will be required to download the latest USB Driver and then run the .</description>
+    </item>
+    
+    <item>
+      <title>Kauai Labs (NavX)</title>
+      <link>http://example.org/robot-configuration/device-firmware/kauai-labs-navx/</link>
+      <pubDate>Wed, 21 Sep 2022 14:01:53 -0700</pubDate>
+      
+      <guid>http://example.org/robot-configuration/device-firmware/kauai-labs-navx/</guid>
+      <description>Kauai Labs, one of the main IMU board providers, well known for there 9-axis inertial magnetic sensor and motion processor called the navX2-MXP.
+Use Cases The navX2-MXP proccessor can help us obtain certain data, in which it can help us inhance our robot by giving us capabilities of programming specific features such as:
+Field-Oriented Drive Auto-balance Auto-rotate to angle Motion Detection Collision Detection And much more Software Installation Inorder for us to use the navX devices we will be required to download the latest build version which can be found hereAfterwards it will be best to follow the steps on the Kauai Labs Website.</description>
+    </item>
+    
+    <item>
+      <title>REV Robotics</title>
+      <link>http://example.org/robot-configuration/device-firmware/rev/</link>
+      <pubDate>Wed, 21 Sep 2022 14:01:16 -0700</pubDate>
+      
+      <guid>http://example.org/robot-configuration/device-firmware/rev/</guid>
+      <description>REV Robitcs is one of the main electronics provider in the FRC world as well as in other robotics competitions. Therefor REV has it own software interface that allows the configuration and for you to update the firmware of their own devices.
+REV Hardware Client The REV hardware client allows you to edit the configuration of your REV devices by connecting to them manually via a USB Type C. This means we will be able to configure devices such as Spark Max motor controllers, the Control Hub and even the Expansion Board.</description>
+    </item>
+    
+    <item>
+      <title>Cross The Road Electronics</title>
       <link>http://example.org/robot-configuration/device-firmware/ctre/</link>
       <pubDate>Wed, 21 Sep 2022 14:01:12 -0700</pubDate>
       
       <guid>http://example.org/robot-configuration/device-firmware/ctre/</guid>
-      <description>CTR - Elctronics, also known as CTRE is one of the main FRC robot electronics provider while providing incredibly useful and neccesary tools for dignosing electronic devices and configurring.</description>
+      <description>Cross The Road Elctronics, also known as CTRE is one of the main FRC robot electronics provider while allowing for incredibly useful and neccesary tools for dignosing electronic devices and configurring them.
+Pheonix Tools The Pheonix Library provided by CTRE is a great way to get started as they allow us to settup our devices once they are ready. The installation for the Pheonix Framework can be found here.</description>
     </item>
     
     <item>
@@ -128,7 +170,30 @@ Point Of View Point of view is an important factor when it comes to competing, f
       <pubDate>Wed, 21 Sep 2022 14:00:00 -0700</pubDate>
       
       <guid>http://example.org/robot-configuration/driver-station/</guid>
-      <description></description>
+      <description>Driver Station is the program we use to control and communicate with our robot, it is required that Driver Station is connected and enabled before your robot will do anything. Your controller inputs and robot modes also go through Driver Station.
+Driver Station Tour On the left, you will see 5 tabs. Each tab is important and has its own purpose, you will only need to worry about 3 for the majority of your time in Driver Station.</description>
+    </item>
+    
+    <item>
+      <title>Roborio</title>
+      <link>http://example.org/robot-configuration/roborio/</link>
+      <pubDate>Wed, 21 Sep 2022 13:59:48 -0700</pubDate>
+      
+      <guid>http://example.org/robot-configuration/roborio/</guid>
+      <description>The Roborio is a powerful component on your robot
+Your Roborio will need to be updated every season and sometimes with every WPI release, it is important to make sure the Roborio is up to date. Very often critical bugs and errors are found and fixed.
+RIO 1 vs RIO 2 The roborio 1 and 2 are very similar, but the Rio 2 does provide some more features and contains better hardware.</description>
+    </item>
+    
+    <item>
+      <title>Radio</title>
+      <link>http://example.org/robot-configuration/radio/</link>
+      <pubDate>Wed, 21 Sep 2022 13:59:37 -0700</pubDate>
+      
+      <guid>http://example.org/robot-configuration/radio/</guid>
+      <description>The Radio on your robot is how the information from your laptop gets to the robot wirelessly
+Programming the Radio You will need to download the official radio configuration tool here, this page also includes all the steps you need to set up your radio for development
+Getting Ready for Competition Your radio will work differently at a competition, it will need to be reprogrammed to connect to the FMS (Field Management System), there should be a station where you can bring your robot to reprogram the radio.</description>
     </item>
     
   </channel>
