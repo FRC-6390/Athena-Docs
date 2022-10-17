@@ -53,11 +53,14 @@
     <loc>http://example.org/subsystems/elevator/</loc>
     <lastmod>2022-09-16T08:56:14-07:00</lastmod>
   </url><url>
-    <loc>http://example.org/introduction/pneumatics/</loc>
-    <lastmod>2022-09-21T13:59:16-07:00</lastmod>
+    <loc>http://example.org/introduction/sensors/</loc>
+    <lastmod>2022-09-21T13:59:03-07:00</lastmod>
   </url><url>
     <loc>http://example.org/driver-control/</loc>
     <lastmod>2022-09-16T08:56:14-07:00</lastmod>
+  </url><url>
+    <loc>http://example.org/introduction/pneumatics/</loc>
+    <lastmod>2022-09-21T13:59:16-07:00</lastmod>
   </url><url>
     <loc>http://example.org/subsystems/pneumatics/</loc>
     <lastmod>2022-09-16T08:56:14-07:00</lastmod>
@@ -65,11 +68,11 @@
     <loc>http://example.org/robot-drivetrain/</loc>
     <lastmod>2022-09-16T08:56:14-07:00</lastmod>
   </url><url>
-    <loc>http://example.org/introduction/cameras/</loc>
-    <lastmod>2022-09-21T13:59:10-07:00</lastmod>
-  </url><url>
     <loc>http://example.org/subsystems/</loc>
     <lastmod>2022-09-16T08:56:14-07:00</lastmod>
+  </url><url>
+    <loc>http://example.org/introduction/cameras/</loc>
+    <lastmod>2022-09-21T13:59:10-07:00</lastmod>
   </url><url>
     <loc>http://example.org/debugging/</loc>
     <lastmod>2022-09-16T08:56:14-07:00</lastmod>
@@ -95,11 +98,26 @@
     <loc>http://example.org/intro-to-frc-programming/camera/</loc>
     <lastmod>2022-09-21T14:05:46-07:00</lastmod>
   </url><url>
+    <loc>http://example.org/robot-configuration/device-firmware/limelight/</loc>
+    <lastmod>2022-09-21T14:02:00-07:00</lastmod>
+  </url><url>
+    <loc>http://example.org/robot-configuration/device-firmware/kauai-labs-navx/</loc>
+    <lastmod>2022-09-21T14:01:53-07:00</lastmod>
+  </url><url>
+    <loc>http://example.org/robot-configuration/device-firmware/rev/</loc>
+    <lastmod>2022-09-21T14:01:16-07:00</lastmod>
+  </url><url>
     <loc>http://example.org/robot-configuration/device-firmware/ctre/</loc>
     <lastmod>2022-09-21T14:01:12-07:00</lastmod>
   </url><url>
     <loc>http://example.org/robot-configuration/driver-station/</loc>
     <lastmod>2022-09-21T14:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://example.org/robot-configuration/roborio/</loc>
+    <lastmod>2022-09-21T13:59:48-07:00</lastmod>
+  </url><url>
+    <loc>http://example.org/robot-configuration/radio/</loc>
+    <lastmod>2022-09-21T13:59:37-07:00</lastmod>
   </url><url>
     <loc>http://example.org/robot-drivetrain/swerve/</loc>
     <lastmod>2022-09-16T08:56:14-07:00</lastmod>

@@ -2,7 +2,7 @@
 title: "Cameras"
 date: 2022-09-21T13:59:10-07:00
 draft: false
-description: "Vission to your robot"
+description: "Vission for your robot"
 weight: 9
 ---
 

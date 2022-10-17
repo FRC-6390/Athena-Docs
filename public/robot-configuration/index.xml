@@ -13,7 +13,30 @@
       <pubDate>Wed, 21 Sep 2022 14:00:00 -0700</pubDate>
       
       <guid>http://example.org/robot-configuration/driver-station/</guid>
-      <description></description>
+      <description>Driver Station is the program we use to control and communicate with our robot, it is required that Driver Station is connected and enabled before your robot will do anything. Your controller inputs and robot modes also go through Driver Station.
+Driver Station Tour On the left, you will see 5 tabs. Each tab is important and has its own purpose, you will only need to worry about 3 for the majority of your time in Driver Station.</description>
+    </item>
+    
+    <item>
+      <title>Roborio</title>
+      <link>http://example.org/robot-configuration/roborio/</link>
+      <pubDate>Wed, 21 Sep 2022 13:59:48 -0700</pubDate>
+      
+      <guid>http://example.org/robot-configuration/roborio/</guid>
+      <description>The Roborio is a powerful component on your robot
+Your Roborio will need to be updated every season and sometimes with every WPI release, it is important to make sure the Roborio is up to date. Very often critical bugs and errors are found and fixed.
+RIO 1 vs RIO 2 The roborio 1 and 2 are very similar, but the Rio 2 does provide some more features and contains better hardware.</description>
+    </item>
+    
+    <item>
+      <title>Radio</title>
+      <link>http://example.org/robot-configuration/radio/</link>
+      <pubDate>Wed, 21 Sep 2022 13:59:37 -0700</pubDate>
+      
+      <guid>http://example.org/robot-configuration/radio/</guid>
+      <description>The Radio on your robot is how the information from your laptop gets to the robot wirelessly
+Programming the Radio You will need to download the official radio configuration tool here, this page also includes all the steps you need to set up your radio for development
+Getting Ready for Competition Your radio will work differently at a competition, it will need to be reprogrammed to connect to the FMS (Field Management System), there should be a station where you can bring your robot to reprogram the radio.</description>
     </item>
     
   </channel>

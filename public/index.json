@@ -18,7 +18,7 @@
 	"title": "Introduction",
 	"tags": [],
 	"description": " ",
-	"content": "Introduction VS Code\rHow to get your computer ready for FRC\nGitHub\rGetting started with java\nWPILIB\rAn Introduction to the offical FRC Library and Game Tools\nJava\rWhere to get and where to learn it\nCAN Bus\rThe wires that give us the power to do amazing things\nMotors\rBasic introduction to motors\nPneumatics\rIntro to pneumatics and how they can be used\nCameras\rVission to your robot\n"
+	"content": "Introduction VS Code\rHow to get your computer ready for FRC\nGitHub\rGetting started with java\nWPILIB\rAn Introduction to the offical FRC Library and Game Tools\nJava\rWhere to get and where to learn it\nCAN Bus\rThe wires that give us the power to do amazing things\nMotors\rBasic introduction to motors\nSensors\rWhat are sensors and feedback\nPneumatics\rIntro to pneumatics and how they can be used\nCameras\rVission for your robot\n"
 },
 {
 	"uri": "http://example.org/introduction/github/",
@@ -45,8 +45,8 @@
 	"uri": "http://example.org/robot-configuration/",
 	"title": "Robot Configuration",
 	"tags": [],
-	"description": " ",
-	"content": "Robot Configuration The robot configuration chapter allows you to learn the basic robot settup required inorder to get your robot ready to be programmed, connected and prepare it for competition.\nDevice Firmware\rDriver Station\r"
+	"description": "Installing the latest firmwares",
+	"content": "Robot Configuration The robot configuration chapter allows you to learn the basic robot settup required inorder to get your robot ready to be programmed, connected and prepare it for competition.\nDevice Firmware\rDriver Station\rHow to enable/disable and see what your robot is doing\nRoborio\rThe brain of your robot\nRadio\rNetworking, networking, networking...\n"
 },
 {
 	"uri": "http://example.org/introduction/java/",
@@ -95,7 +95,7 @@
 	"title": "Device Firmware",
 	"tags": [],
 	"description": " ",
-	"content": "Device Firmware An introduction to getting all your electronics updated with the latest firmare in order to allow for successful compatibility and connection between different devices.\nCTRE\rCTR - Elctronics, also known as CTRE is one of the main FRC robot electronics provider while providing incredibly useful and neccesary tools for dignosing electronic devices and configurring.\n"
+	"content": "Device Firmware An introduction to getting all your electronics updated with the latest firmare in order to allow for successful compatibility and connection between different devices.\nLimelight\rSetting up your limelight\nKauai Labs (NavX)\rFor IMU usage by Kauai Labs\nREV Robotics\rInstalling the right REV firmware\nCross The Road Electronics\rCross The Roads Electronics\n"
 },
 {
 	"uri": "http://example.org/introduction/motors/",
@@ -119,11 +119,11 @@
 	"content": "Elevator "
 },
 {
-	"uri": "http://example.org/introduction/pneumatics/",
-	"title": "Pneumatics",
+	"uri": "http://example.org/introduction/sensors/",
+	"title": "Sensors",
 	"tags": [],
-	"description": "Intro to pneumatics and how they can be used",
-	"content": "What Are Pneumatics And How Can They Be Used Pneumatics are a useful device that can be used to create simple actions, they work by expanding and retracting an arm in a cylinder in which works by using compressed air. In the image bellow you will see a pnuematic cylinder that is currently in the retreacted state. In most cases when it comes to FRC robots they are used for expanding and retracting intake subsystems, movinf arms, or even pulling or pushing a robot for end game.\nCompressor Pnuematics work by using compressed stored air, but that air has to be collected is some way, therefor we use a compressor such as the one seen bellow.\nAir Tanks Air tanks and tubbing are essential pieces when it comes to working with pneumatic system as the air that is being compressed by the compressor must be stored in some way. Therefor it is important to insure that you have a goo and large enough storage system without any air leaks inorder to be able to use your pneumatic system effectivly.\nControl Module The Pneumatics Control Module (PCM) is a device that is CAN-based which provides you to control your pneumatic devices. The PCM allows you to control up to 8 pneumatic solenoids in order to perform a variety of tasks.\nWiring To find out more details regarding how to wire your pneumatic system please vist the link attached here\rThis is a simple diagram that can show you how to can get started with wiring and the difference between a single and double pneumatic solenoid system.\n"
+	"description": "What are sensors and feedback",
+	"content": "Some sensors have native support in WPI, but if you want to features offered by the vendor, you will need to install their custom vendor library.\nAccelerometers Accelerometers measure acceleration (rate of change of velocity), an accelerometer typically uses 3 axes to measure acceleration but some may only measure in one direction. WPI has support for both types of single and tri-axis accelerometers. AnalogAccleromter, ADXL345_I2C, ADXL345_SP, ADXL362 and BuiltInAccelerometer for the Robrio.\nGyroscopes Gyroscopes measure the speed at which an object is turning. Similar to an accelerometer, gyroscopes can be single and tri-axis. WPI has support for gyroscopes but we strongly recommend using the vendor-provided library because they will include quality of life features and capabilities just not found in the WPI library. WPI has support for AnalogGyro, ADIS16448, ADIS16470 and ADXRS450_Gyro. WPI lib does have support for some vendor-specific gyroscopes but, we recommend using the library provided by the vendor itself\nUltrasonic rangefinders Ultrasonic rangefinders find the distance from itself to an object by using ultrasonic sound. WPI does not have much support for this type of sensor and recommends using a vendor-provided library. WPI only supports Ping-response and Analog ultrasonic sensors.\nPotentiometers Potentiometers are variable resistors that measure the voltage of the resistor to find the distance. WPI only has support for one class, AnalogPotentiometer.\nCounters Counters, count! They are often used to measure the number of rotations of a wheel or another rotating object but that job is usually left to an encoder. WPI has support for different counting modes, Two-pulse, Semi-period, Pulse-length, and External direction.\nQuadrature Encoders Quadrature encoders or encoders, often measure the rotation of a wheel or shaft. WPI has great support for encoders but we strongly recommend using any vendor-provided library because they typically come with a whole suite of useful features. WPI has support for a few different decoding modes, 1x, 2x, and 4x.\nLimit Switches Limit switches come in a few different types. Most commonly they will be mechanical/button-like or magnetic. No matter what type you have they all should operate the same, programmatically. WPI does not have a specific class for limit switches but it does include a DigitalInput class where support is provided.\nColour Sensor Colour sensors, sense colour. WPI does not have any support for this type of sensor. We suggest just using the vendor-provided library.\nInertial Measurement Unit (IMU) IMU typically combines multiple sensors that measure acceleration, angular rate and orientation. They do not always include all the listed sensors but most do, they act like an all-in-one including your Accelerometer, Gyroscope and AHRS. WPI does have support for some vendor-specific devices but we recommend using the vendor provided library.\n"
 },
 {
 	"uri": "http://example.org/driver-control/",
@@ -131,6 +131,13 @@
 	"tags": [],
 	"description": " ",
 	"content": "Driver Control "
+},
+{
+	"uri": "http://example.org/introduction/pneumatics/",
+	"title": "Pneumatics",
+	"tags": [],
+	"description": "Intro to pneumatics and how they can be used",
+	"content": "What Are Pneumatics And How Can They Be Used Pneumatics are a useful device that can be used to create simple actions, they work by expanding and retracting an arm in a cylinder in which works by using compressed air. In the image bellow you will see a pnuematic cylinder that is currently in the retreacted state. In most cases when it comes to FRC robots they are used for expanding and retracting intake subsystems, movinf arms, or even pulling or pushing a robot for end game.\nCompressor Pnuematics work by using compressed stored air, but that air has to be collected is some way, therefor we use a compressor such as the one seen bellow.\nAir Tanks Air tanks and tubbing are essential pieces when it comes to working with pneumatic system as the air that is being compressed by the compressor must be stored in some way. Therefor it is important to insure that you have a goo and large enough storage system without any air leaks inorder to be able to use your pneumatic system effectivly.\nControl Module The Pneumatics Control Module (PCM) is a device that is CAN-based which provides you to control your pneumatic devices. The PCM allows you to control up to 8 pneumatic solenoids in order to perform a variety of tasks.\nWiring To find out more details regarding how to wire your pneumatic system please vist the link attached here\rThis is a simple diagram that can show you how to can get started with wiring and the difference between a single and double pneumatic solenoid system.\n"
 },
 {
 	"uri": "http://example.org/subsystems/pneumatics/",
@@ -147,18 +154,18 @@
 	"content": "Robot Drivetrain Swerve\r"
 },
 {
-	"uri": "http://example.org/introduction/cameras/",
-	"title": "Cameras",
-	"tags": [],
-	"description": "Vission to your robot",
-	"content": " When it comes to competing in robot competitions it is is incredibly useful to have a secondary point of view for your robot which proves specifically useful when you are unable to see your robot in the field.\nPoint Of View Point of view is an important factor when it comes to competing, for instance if you were to have an intake system that needs to grab power cells or cargo as seen in the previous years it may seem as if you are positioned propperly to intake when you likely are not. Therfore using cameras can allow for an advantange and allow for a secondary point of view, for more info regarding the programming aspect please visit the programming introduction to Cameras\r.\nAfter programming the camera you will then be able to acces it via the FRC Dashboard which we will get into more details about in the Robot Driver Station\rWiring When it comes to wiring USB Cameras it is extremely easy as all that is required is that you plug in the USB cable into the the USB port on the Roborio.\n"
-},
-{
 	"uri": "http://example.org/subsystems/",
 	"title": "Subsystems",
 	"tags": [],
 	"description": " ",
 	"content": "Subsystems Intake\rFeeder\rShooter\rTurret\rElevator\rPneumatics\r"
+},
+{
+	"uri": "http://example.org/introduction/cameras/",
+	"title": "Cameras",
+	"tags": [],
+	"description": "Vission for your robot",
+	"content": " When it comes to competing in robot competitions it is is incredibly useful to have a secondary point of view for your robot which proves specifically useful when you are unable to see your robot in the field.\nPoint Of View Point of view is an important factor when it comes to competing, for instance if you were to have an intake system that needs to grab power cells or cargo as seen in the previous years it may seem as if you are positioned propperly to intake when you likely are not. Therfore using cameras can allow for an advantange and allow for a secondary point of view, for more info regarding the programming aspect please visit the programming introduction to Cameras\r.\nAfter programming the camera you will then be able to acces it via the FRC Dashboard which we will get into more details about in the Robot Driver Station\rWiring When it comes to wiring USB Cameras it is extremely easy as all that is required is that you plug in the USB cable into the the USB port on the Roborio.\n"
 },
 {
 	"uri": "http://example.org/debugging/",
@@ -193,7 +200,7 @@
 	"title": "FRC 6390 DOCS",
 	"tags": [],
 	"description": "",
-	"content": "FRC 6390 DOCS By Hephaestus 6390\rAthena Docs is the knowledge of all Hephaestus 6390\u0026rsquo;s programmers all compiled into one site. The purpose of this site is to a useful resource guide for anyone to use, a few things you can find and learn on this site are listed bellow.\nIntroduction\rVS Code\rHow to get your computer ready for FRC\nGitHub\rGetting started with java\nWPILIB\rAn Introduction to the offical FRC Library and Game Tools\nJava\rWhere to get and where to learn it\nCAN Bus\rThe wires that give us the power to do amazing things\nMotors\rBasic introduction to motors\nPneumatics\rIntro to pneumatics and how they can be used\nCameras\rVission to your robot\nRobot Configuration\rDevice Firmware\rDriver Station\rCommand Based Programming\rIntro to FRC Programming\rCamera\rDriver Station\rIntroduction\rDriver Control\rRobot Drivetrain\rSwerve\rSubsystems\rIntake\rFeeder\rShooter\rTurret\rElevator\rPneumatics\rDebugging\rLEDS\rLimelight\rAutonomous\r"
+	"content": "FRC 6390 DOCS By Hephaestus 6390\rAthena Docs is the knowledge of all Hephaestus 6390\u0026rsquo;s programmers all compiled into one site. The purpose of this site is to a useful resource guide for anyone to use, a few things you can find and learn on this site are listed bellow.\nIntroduction\rVS Code\rHow to get your computer ready for FRC\nGitHub\rGetting started with java\nWPILIB\rAn Introduction to the offical FRC Library and Game Tools\nJava\rWhere to get and where to learn it\nCAN Bus\rThe wires that give us the power to do amazing things\nMotors\rBasic introduction to motors\nSensors\rWhat are sensors and feedback\nPneumatics\rIntro to pneumatics and how they can be used\nCameras\rVission for your robot\nRobot Configuration\rInstalling the latest firmwares\nDevice Firmware\rDriver Station\rHow to enable/disable and see what your robot is doing\nRoborio\rThe brain of your robot\nRadio\rNetworking, networking, networking...\nCommand Based Programming\rIntro to FRC Programming\rCamera\rDriver Station\rIntroduction\rDriver Control\rRobot Drivetrain\rSwerve\rSubsystems\rIntake\rFeeder\rShooter\rTurret\rElevator\rPneumatics\rDebugging\rLEDS\rLimelight\rAutonomous\r"
 },
 {
 	"uri": "http://example.org/robot-drivetrain/swerve/alignment/",
@@ -217,18 +224,53 @@
 	"content": ""
 },
 {
-	"uri": "http://example.org/robot-configuration/device-firmware/ctre/",
-	"title": "CTRE",
+	"uri": "http://example.org/robot-configuration/device-firmware/limelight/",
+	"title": "Limelight",
 	"tags": [],
-	"description": "",
-	"content": "CTR - Elctronics, also known as CTRE is one of the main FRC robot electronics provider while providing incredibly useful and neccesary tools for dignosing electronic devices and configurring.\n"
+	"description": "Setting up your limelight",
+	"content": "\nLimelight is an incredibly useful vision processing tool in FRC which allows you to make accurate predictions and measurments based off a reflective tape on the FRC field, as well as by being used as a normal camera.\nDownloading To get started we will need to install the latest Drivers, Image and Flasher from the Limelight Downloads Page\rDrivers After clicking the link to the Limelight downloads page you will be required to download the latest USB Driver and then run the .exe file to download the correct drivers as the LimeLight runs off of a Raspberry PI. Image The next step would be to download the lastest Limelight Image which would be required for the next step. To download the latest version can also be found on the Limelight Downloads page listed above. Make sure you are aware of where the file is saved on your device as we will need to use that file later on. Flash Tool (Etcher) Etcher is the designated flashing software used by LimeLight, which will be used to install the coreect driver and image onto your LimeLight device. To get started download the Flashing Tool form the Limelights Downloads Page\r. After downloading it, you will need to run the .exe file and complete the installation process Setup After installing all neccessary software, you will need to follow the setup process:\n1) You will want to start off by connecting your LimeLight device to your computer by using a USB cable\n2) Next you will need to open the Balena Etcher Flashing desktop application \u0026ldquo;as administrator\u0026rdquo;, it may take up to 20 seconds until it recognizes your LimeLight\n3) After that you will click the first button \u0026ldquo;Flash From File\u0026rdquo;, then you will need to go back and locate where the latest image you downloaded which would be saved as a .zip\n4) The next step requires you clicking the \u0026ldquo;Select Target\u0026rdquo; button and will need you to select the Limelight \u0026ldquo;Compute Module\u0026rdquo;\n5) Once all the above steps have been clicked, you will finally click the \u0026ldquo;Flash\u0026rdquo; button to complete the proccess\n"
+},
+{
+	"uri": "http://example.org/robot-configuration/device-firmware/kauai-labs-navx/",
+	"title": "Kauai Labs (NavX)",
+	"tags": [],
+	"description": "For IMU usage by Kauai Labs",
+	"content": "Kauai Labs, one of the main IMU board providers, well known for there 9-axis inertial magnetic sensor and motion processor called the navX2-MXP.\nUse Cases The navX2-MXP proccessor can help us obtain certain data, in which it can help us inhance our robot by giving us capabilities of programming specific features such as:\nField-Oriented Drive Auto-balance Auto-rotate to angle Motion Detection Collision Detection And much more Software Installation Inorder for us to use the navX devices we will be required to download the latest build version which can be found here\rAfterwards it will be best to follow the steps on the Kauai Labs Website\r. Their site has a very detailed step by step proccess to downloading the latest build and managing your VS Code Vendor Libraries. Please do not miss those steps as they are required for your code to work. Incase you notice that you have not managed your vendor libraries for any other firmwares such as CTRE, NAVX, etc, insure that you include them and the latest version if yo have multiple builds.\n"
+},
+{
+	"uri": "http://example.org/robot-configuration/device-firmware/rev/",
+	"title": "REV Robotics",
+	"tags": [],
+	"description": "Installing the right REV firmware",
+	"content": "\nREV Robitcs is one of the main electronics provider in the FRC world as well as in other robotics competitions. Therefor REV has it own software interface that allows the configuration and for you to update the firmware of their own devices.\nREV Hardware Client The REV hardware client allows you to edit the configuration of your REV devices by connecting to them manually via a USB Type C. This means we will be able to configure devices such as Spark Max motor controllers, the Control Hub and even the Expansion Board.\nInstallation The latest version of the REV Hardware Client can be found here\r.\nAfter downloading the REV Hardware Client, you eill be required to run the installer and follow its steps.\nNavigating The REV Hardware Client Once you have completed all of the above steps run the REV Hardware Client desktop application. The client has three main tabs, which are the Hardware, Downloads and About.\nHardware Tab On the hardware tab you will be able to find all REV supported devices and update them. 1) To start off connect to the REV Hardware you plan on scanning by using the USB Type C that is provided by REV, once connected to your computer you will then have to scan for devices\n2) After your device has appeared you will need to click the check for updates button on the top right corner to insure you have the latest version of the REV Client\n3) The next step is to select the device that has appeared, a page will pop up regarding the firmare version that is downloaded on the device, from there you will be able to change to whatever version pleases your needs which can be seen in the pictures bellow.\nFor more details about the REV Hardware Client please visit the REV Documentation\rfor navigating the client.\n"
+},
+{
+	"uri": "http://example.org/robot-configuration/device-firmware/ctre/",
+	"title": "Cross The Road Electronics",
+	"tags": [],
+	"description": "Cross The Roads Electronics",
+	"content": "\nCross The Road Elctronics, also known as CTRE is one of the main FRC robot electronics provider while allowing for incredibly useful and neccesary tools for dignosing electronic devices and configurring them.\nPheonix Tools The Pheonix Library provided by CTRE is a great way to get started as they allow us to settup our devices once they are ready. The installation for the Pheonix Framework can be found here\r.\nAfter installing the tools you will be able to use the Pheonix Tuner in order to interact with CTRE hardware devices, test them, and even settup their firmware version and ID.\nDevice Software Firmware Configuration Now that we have installed the tools required from CTRE it will come with latest device firmwares for all devices at the time, which you be a ble to find on your computer under an FRC folder C:\\Users\\Public\\Documents\\FRC There are also times where a firmware update is necessary due to a new updates, therefor we will need to download the latest version from the CTRE website\r. Setting Up Your Device After you have completed the above steps you will need to open the Pheonix Tuner desktop application and connect to your robot via a USB Type B which will be connected to your Roborio, then you will want to click \u0026ldquo;Run A Temporary Diagnostic Server\u0026rdquo; Updating Device After running a diagnostic server and getting connected, you will need to head to the second tab on the top left called CAN Devices it may take a few moments to load the devices that are recognised, but once they appear you will want to follow the following steps.\n1) Select the devices you want to update and click\n2) Set the ID of the device you are updating, make sure it does not interfere with any other existing device ID\u0026rsquo;s otherwise you may run into issues\n3) Change the name of the to something you are easily to recognised\n4) Select the proper path to the most recent CRF file, which would be the most recently downloaded firmware found under your FRC folder, please insure you are selecting the firmware for the correct device you are updating\n5) If you are updating the firmware of multiple devices with the same firmware select the option to \u0026ldquo;Update All With Matching Type\u0026rdquo;\n6) Finally press the Update Device button\nNote: incase you run into trouble identifying your device, due to tight spaces or idetical components you can blink each individual device by clicking the \u0026ldquo;Animate LED\u0026rsquo;s and Confirm ID is Correct\u0026rdquo;\n"
 },
 {
 	"uri": "http://example.org/robot-configuration/driver-station/",
 	"title": "Driver Station",
 	"tags": [],
-	"description": " ",
-	"content": ""
+	"description": "How to enable/disable and see what your robot is doing",
+	"content": "Driver Station is the program we use to control and communicate with our robot, it is required that Driver Station is connected and enabled before your robot will do anything. Your controller inputs and robot modes also go through Driver Station.\nDriver Station Tour On the left, you will see 5 tabs. Each tab is important and has its own purpose, you will only need to worry about 3 for the majority of your time in Driver Station.\nOperation Tab This tab contains all the required controls to switch your robot mode, you will find yourself most often on this page.\nUSB Devices Tab This tab shows a list of USB devices the robot can see, these devices are connected through your computer. It also shows the device\u0026rsquo;s ID, button inputs and axis values, all of these will be very useful when setting up your controls. If you need to move a device to another spot you can click and drag the device to another slot.\nMessages Tab This tab shows any outputs from the robot, if you are looking for print outs or are looking for a more specific type of output, you can press the gear icon and change what is shown.\nYou can find an in-depth explanation of Driver Station from WPI here\rSetting Your Team Number Head into the 3rd tab and please make sure your Driver Station team number is set correctly or else you will not be able to connect and control the robot\nControls F1 -\u0026gt; Joystick Refresh\n[ or ] or \\ -\u0026gt; Enable Robot\nEnter -\u0026gt; Disable Robot\nSpace -\u0026gt; Emergency Stop\nWhen an emergency stop is triggered, you will need to re-upload the code or reboot the RIO to robot to be able to enable it again keep note that driver station will detect if the space bar is pressed even if it is not focused\nLogs (DS Log File Viewer) This is very important window! This is the tab you go to when all your code is right, the robot has no wiring issues and the networking is setup correctly, or atleast you think it is. This will give you in-depth break down of every single thing your robot is doing, if your CAN is doing things that do not make sense or the networking is acting weird, check this and check their utilizations.\n"
+},
+{
+	"uri": "http://example.org/robot-configuration/roborio/",
+	"title": "Roborio",
+	"tags": [],
+	"description": "The brain of your robot",
+	"content": "The Roborio is a powerful component on your robot\nYour Roborio will need to be updated every season and sometimes with every WPI release, it is important to make sure the Roborio is up to date. Very often critical bugs and errors are found and fixed.\nRIO 1 vs RIO 2 The roborio 1 and 2 are very similar, but the Rio 2 does provide some more features and contains better hardware. The roborio 1 is perfectly capable on as is.\nRoborio Imaging Tool The Roborio Imaging Tool is in the FRC game tools installation. You should follow the official imaging guide here\rRoborio Web GUI If you are connected to the Roborio over USB, head to 172.22.11.2 else roboRIO-####-FRC.local, #### is your team number but you can not have leading zeros: example\nTeam: 6390, roboRIO-6390-FRC.local\nTeam: 254, roboRIO-254-FRC.local\nTeam: 1, roboRIO-1-FRC.local\nTo find out what you can manage, check out the official resource guide here\r"
+},
+{
+	"uri": "http://example.org/robot-configuration/radio/",
+	"title": "Radio",
+	"tags": [],
+	"description": "Networking, networking, networking...",
+	"content": "The Radio on your robot is how the information from your laptop gets to the robot wirelessly\nProgramming the Radio You will need to download the official radio configuration tool here\r, this page also includes all the steps you need to set up your radio for development\nGetting Ready for Competition Your radio will work differently at a competition, it will need to be reprogrammed to connect to the FMS (Field Management System), there should be a station where you can bring your robot to reprogram the radio. This has to be done or else you can not compete\n"
 },
 {
 	"uri": "http://example.org/robot-drivetrain/swerve/",

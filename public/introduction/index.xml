@@ -68,6 +68,16 @@ CAN vs PWM Please read up on [CAN] if you are sure about any information portain
     </item>
     
     <item>
+      <title>Sensors</title>
+      <link>http://example.org/introduction/sensors/</link>
+      <pubDate>Wed, 21 Sep 2022 13:59:03 -0700</pubDate>
+      
+      <guid>http://example.org/introduction/sensors/</guid>
+      <description>Some sensors have native support in WPI, but if you want to features offered by the vendor, you will need to install their custom vendor library.
+Accelerometers Accelerometers measure acceleration (rate of change of velocity), an accelerometer typically uses 3 axes to measure acceleration but some may only measure in one direction. WPI has support for both types of single and tri-axis accelerometers. AnalogAccleromter, ADXL345_I2C, ADXL345_SP, ADXL362 and BuiltInAccelerometer for the Robrio.</description>
+    </item>
+    
+    <item>
       <title>Pneumatics</title>
       <link>http://example.org/introduction/pneumatics/</link>
       <pubDate>Wed, 21 Sep 2022 13:59:16 -0700</pubDate>
