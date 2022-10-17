@@ -53,13 +53,19 @@ home = [ "HTML", "RSS", "JSON"]
   titleSeparator = "-"
   
   [[menu.shortcuts]]
+  name = '<i class="fas fa-link"></i> WPILib'
+  identifier = "wpilib"
+  url = "https://docs.wpilib.org"
+  weight = 9
+
+  [[menu.shortcuts]]
   name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
   identifier = "repo"
   url = "https://github.com/FRC-6390/Athena-Docs"
   weight = 10
-
+  
   [[menu.shortcuts]]
-  name = '<i class="fa-regular fa-folder"></i> Projects repo'
+  name = '<i class="fas fa-folder"></i> Projects repo'
   identifier = "project"
   url = "https://github.com/FRC-6390/Athena-Docs/tree/main/Projects"
   weight = 11
