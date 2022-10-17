@@ -12,7 +12,7 @@ Vision is an essential component for your robot and yourself especially when it 
 
 #### Programming Cameras
 
-The folowing code is the **Robot.java** file.
+The folowing code is done in the **Robot.java** file.
 
 {{< tabs >}}
 {{% tab name="Robot.java" %}}
