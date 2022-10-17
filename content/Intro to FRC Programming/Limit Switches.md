@@ -20,23 +20,25 @@ import edu.wpi.first.wpilibj.DigitalInput;
 
 public class Robot extends TimedRobot {
 
-  @Override
-  public void robotInit() {
-      private static DigitalInput limitSwitch;
-      limitSwitch = new DigitalInput(0);
-      //the zero will be your limit switch ID/constant
-  }
+    
+    private static DigitalInput limitSwitch;
 
-  @Override
-  public  void robotPeriodic() {
+    @Override
+    public void robotInit() {
+        limitSwitch = new DigitalInput(0);
+        //the zero will be your limit switch ID/constant
+    }
 
-      //if the switch is turned on, it will print true, else false
-      if(limitSwitch.get()){
-          System.out.println("limit switch is on: TRUE");
-      } else {
-          System.out.println("limit switch is off: False");
-      }
-  }
+    @Override
+    public  void robotPeriodic() {
+
+        //if the switch is turned on, it will print true, else false
+        if(limitSwitch.get()){
+            System.out.println("limit switch is on: TRUE");
+        } else {
+            System.out.println("limit switch is off: False");
+        }
+    }
 
   @Override
   public void disabledInit() {}
@@ -78,7 +80,6 @@ import edu.wpi.first.wpilibj.DigitalInput;
 The next part is in the robot initiate which is where we will make the limit switch object
 
 ```java
-    private static DigitalInput limitSwitch;
     limitSwitch = new DigitalInput(0);
     //the zero will be your limit switch ID/constant
 ```
