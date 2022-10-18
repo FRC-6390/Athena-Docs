@@ -44,8 +44,10 @@ DRIVE.FRONT_LEFT_OFFSET
 ## Why An Interface?
 The quick answer is that it makes it easier.
 In a typical constants file, you need to put:
+
 	public static final <variableType> <NAME> = <value>;
 But with an interface:
+
 	<variableType> <NAME> = <value>;
 You do not need the extra fluff, an interface automatically adds it when the code is deployed.
 Interfaces are also more memory efficient compared to a class but with scale, you will be working with the effects are negligible.
