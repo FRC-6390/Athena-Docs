@@ -5,7 +5,7 @@ draft: false
 description: "The brain of your robot"
 weight: 0
 ---
-
+![Rio](/images/Roborio.png?width=200px&height=200px)
 The Roborio is a powerful component on your robot
 
 ---
@@ -13,7 +13,14 @@ The Roborio is a powerful component on your robot
 Your Roborio will need to be updated every season and sometimes with every WPI release, it is important to make sure the Roborio is up to date. Very often critical bugs and errors are found and fixed.
 
 ## RIO 1 vs RIO 2
-The roborio 1 and 2 are very similar, but the Rio 2 does provide some more features and contains better hardware. The roborio 1 is perfectly capable on as is.
+
+The roborio 1 and 2 are very similar, but the Rio 2 does provide some more features and contains better hardware. The roborio 1 is perfectly capable as is.
+### Rio 1
+![Rio1](/images/RoborioKey.jpg?width=500px&height=400px)
+
+### Rio 2
+![Rio2](/images/Roborio2Key.png?width=500px&height=400px)
+
 
 ## Roborio Imaging Tool
 The Roborio Imaging Tool is in the FRC game tools installation. You should follow the official imaging guide [here](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-3/imaging-your-roborio.html)
