@@ -15,11 +15,11 @@ We take a very unique approach to subsystems. This approach makes access to the 
 
 ## Static
 Static everywhere! Making everything static put everything in the class to only be a part of that class, so if another instance of the class is made there won't be 2 objects with motors they will share the same motor. But we can't just make the object and values static:
-
+``` java
 	public static double kP = 5;
-
-This might work for some things but certain motors and sensors need to wait for the robot before being initialized so we need to put it into a constructor
 ```
+This might work for some things but certain motors and sensors need to wait for the robot before being initialized so we need to put it into a constructor
+``` java
 public static double kP;
 
 public Clazz(){
@@ -28,7 +28,7 @@ public Clazz(){
 ```
 This is what most teams will do but, if the class is created again we will have kP set back to 5, what if we don't want that? Or worse what if it was a motor, now we have a second instance of a motor on the CAN loop. So we use a static body.
 
-```
+``` java
 public static double kP;
 	
 static {
@@ -43,7 +43,7 @@ In this we replace the constructor with the static body, this will only run **On
 ## Methods
 In subsystems you have a lot of freedom, you can choose what to make and what they should do. What we suggest, make sure nothing access the Objects directly. If you want to move your left motors, you would create a method to control them rather than the command accessing it directly.
 
-```
+```java
 private static CANSparkMax leftMotor1, leftMotor2;
 
 static {
@@ -66,7 +66,7 @@ Example:
 
 {{< tabs >}}
 {{% tab name="DriveTrain.java" %}}
-```
+``` java
 package frc.robot.subsystems;
 
 import com.revrobotics.CANSparkMax;

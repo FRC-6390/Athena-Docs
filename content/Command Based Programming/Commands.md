@@ -31,7 +31,7 @@ Is finished returns a value, if it is true the command will end right as the exe
 
 {{< tabs >}}
 {{% tab name="DriverControl.java" %}}
-```
+``` java
 package frc.robot.commands;
 
 import java.util.function.DoubleSupplier;
