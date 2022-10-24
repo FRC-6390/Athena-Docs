@@ -10,5 +10,5 @@ weight: 0
 
 **Do not touch the Main**
 
-dont do it
+The main is what starts your program, there should little to no ***NO REASON*** to mess with the file. Please do not edit the Main.
     

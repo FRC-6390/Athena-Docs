@@ -9,4 +9,4 @@ description: " "
 
 # Command Based Programming
 
-{{% children descriptio = "true" %}}.
+{{% children description = "true" %}}.

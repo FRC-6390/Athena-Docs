@@ -15,17 +15,20 @@ On the left, you will see 5 tabs. Each tab is important and has its own purpose,
 
 ### Operation Tab 
 This tab contains all the required controls to switch your robot mode, you will find yourself most often on this page.
-
+![OperationTab](/images/DriverStationOperationTab.png?classes=border,shadow)
 ### USB Devices Tab
 This tab shows a list of USB devices the robot can see, these devices are connected through your computer. It also shows the device's ID, button inputs and axis values, all of these will be very useful when setting up your controls. If you need to move a device to another spot you can click and drag the device to another slot.
-
+![USBDevicesTab](/images/DriverStationUSBDevicesTab.png?classes=border,shadow)
 ### Messages Tab
 This tab shows any outputs from the robot, if you are looking for print outs or are looking for a more specific type of output, you can press the gear icon and change what is shown.
 
 You can find an in-depth explanation of Driver Station from WPI [here](https://docs.wpilib.org/en/stable/docs/software/driverstation/driver-station.html)
-
+![MessagesTab](/images/DriverStationMessagesTab.png?classes=border,shadow)
 ## Setting Your Team Number
 Head into the 3rd tab and please make sure your Driver Station team number is set correctly or else you will not be able to connect and control the robot
+
+![SetupTab](/images/DriverStationSetupTab.png?classes=border,shadow)
+
 
 ## Controls
 

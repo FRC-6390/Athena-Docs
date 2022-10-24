@@ -6,6 +6,7 @@ description: "Networking, networking, networking..."
 weight: 0
 ---
 
+![Radio](/images/FrcRadios.png?width=500px&height=200px)
 The Radio on your robot is how the information from your laptop gets to the robot wirelessly
 
 ---
