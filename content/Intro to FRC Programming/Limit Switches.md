@@ -2,7 +2,7 @@
 title: "Limit Switches"
 date: 2022-09-21T14:05:19-07:00
 draft: false
-description: "Off and on sensors"
+description: "Off and On Sensors"
 weight: 0
 ---
 
@@ -40,29 +40,29 @@ public class Robot extends TimedRobot {
         }
     }
 
-  @Override
-  public void disabledInit() {}
+    @Override
+    public void disabledInit() {}
 
-  @Override
-  public void disabledPeriodic() {}
+    @Override
+    public void disabledPeriodic() {}
 
-  @Override
-  public void autonomousInit() {}
+    @Override
+    public void autonomousInit() {}
 
-  @Override
-  public void autonomousPeriodic() {}
+    @Override
+    public void autonomousPeriodic() {}
 
-  @Override
-  public void teleopInit() {}
+    @Override
+    public void teleopInit() {}
 
-  @Override
-  public void teleopPeriodic() {}  
+    @Override
+    public void teleopPeriodic() {}  
 
-  @Override
-  public void testInit() {}
-  
-  @Override
-  public void testPeriodic() {} 
+    @Override
+    public void testInit() {}
+
+    @Override
+    public void testPeriodic() {} 
 }
 
 ```
@@ -81,7 +81,7 @@ The next part is in the robot initiate which is where we will make the limit swi
 
 ```java
     limitSwitch = new DigitalInput(0);
-    //the zero will be your limit switch ID/constant
+    //the zero will be your limit switch ID/constant, which relates to the port it is plugged into
 ```
 Notice that we set the digital input channel to the ID of the limit switch which would be the port that it is plugged into
 

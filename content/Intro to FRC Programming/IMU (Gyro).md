@@ -2,7 +2,7 @@
 title: "IMU (Gyro)"
 date: 2022-09-21T14:05:06-07:00
 draft: false
-description: " "
+description: "Measuring Angle Rotation"
 weight: 0
 ---
 
@@ -30,7 +30,7 @@ public class Robot extends TimedRobot {
     }
 
     @Override
-    public  void robotPeriodic() {
+    public void robotPeriodic() {
         gyroPigeon = new PigeonIMU(); 
         gyroAHRS = new AHRS(SPI.Port.kMXP);
 
@@ -39,29 +39,29 @@ public class Robot extends TimedRobot {
         Sytem.out.println(gyroAHRS.getAngle());
     }
 
-  @Override
-  public void disabledInit() {}
+    @Override
+    public void disabledInit() {}
 
-  @Override
-  public void disabledPeriodic() {}
+    @Override
+    public void disabledPeriodic() {}
 
-  @Override
-  public void autonomousInit() {}
+    @Override
+    public void autonomousInit() {}
 
-  @Override
-  public void autonomousPeriodic() {}
+    @Override
+    public void autonomousPeriodic() {}
 
-  @Override
-  public void teleopInit() {}
+    @Override
+    public void teleopInit() {}
 
-  @Override
-  public void teleopPeriodic() {}  
+    @Override
+    public void teleopPeriodic() {}  
 
-  @Override
-  public void testInit() {}
-  
-  @Override
-  public void testPeriodic() {} 
+    @Override
+    public void testInit() {}
+
+    @Override
+    public void testPeriodic() {} 
 }
 
 ```

@@ -27,39 +27,39 @@ import edu.wpi.first.cscore.VideoSource.ConnectionStrategy;
 
 public class Robot extends TimedRobot {
 
-  @Override
-  public void robotInit() {
-    UsbCamera cam = CameraServer.startAutomaticCapture(0);
-    CameraServer.getServer();
-    cam.setConnectionStrategy(ConnectionStrategy.kKeepOpen);
-  }
+    @Override
+    public void robotInit() {
+      UsbCamera cam = CameraServer.startAutomaticCapture(0);
+      CameraServer.getServer();
+      cam.setConnectionStrategy(ConnectionStrategy.kKeepOpen);
+    }
 
-  @Override
-  public  void robotPeriodic() {}
+    @Override
+    public  void robotPeriodic() {}
 
-  @Override
-  public void disabledInit() {}
+    @Override
+    public void disabledInit() {}
 
-  @Override
-  public void disabledPeriodic() {}
+    @Override
+    public void disabledPeriodic() {}
 
-  @Override
-  public void autonomousInit() {}
+    @Override
+    public void autonomousInit() {}
 
-  @Override
-  public void autonomousPeriodic() {}
+    @Override
+    public void autonomousPeriodic() {}
 
-  @Override
-  public void teleopInit() {}
+    @Override
+    public void teleopInit() {}
 
-  @Override
-  public void teleopPeriodic() {}  
+    @Override
+    public void teleopPeriodic() {}  
 
-  @Override
-  public void testInit() {}
-  
-  @Override
-  public void testPeriodic() {} 
+    @Override
+    public void testInit() {}
+
+    @Override
+    public void testPeriodic() {} 
 }
 
 ```
