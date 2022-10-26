@@ -3,7 +3,7 @@ title: "Limit Switches"
 date: 2022-09-21T14:05:19-07:00
 draft: false
 description: "Off and On Sensors"
-weight: 0
+weight: 2
 ---
 
 #### Programming Magnatic Limit Switches

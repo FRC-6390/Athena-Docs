@@ -3,7 +3,7 @@ title: "Servos"
 date: 2022-09-21T14:05:30-07:00
 draft: false
 description: "Low Powered Precise Movement"
-weight: 0
+weight: 3
 ---
 
 Servos are a type of motor which integrate positional feedback in order to allow a single motor to perform repeatable, controllable, and short actions while taking position as the input signal. WPILib provides the capability to control servos which match the common hobby input specification. The WPILIB library eaily allows us to get started with progrmming the basic hobby servos, which is a great way to get started in FRC

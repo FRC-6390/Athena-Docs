@@ -3,7 +3,7 @@ title: "LEDS"
 date: 2022-09-21T14:05:34-07:00
 draft: false
 description: "Adding Feedback and Colors To Your Robot"
-weight: 0
+weight: 9
 ---
 
 LEDS an essential part of our robots in order to make them provide feedback to the driver, but most importantly making your robot look cool. In order to program LED's we will be using the Blinkin LED Driver by REV Robotics.

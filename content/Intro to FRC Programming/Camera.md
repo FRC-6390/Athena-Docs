@@ -3,7 +3,7 @@ title: "Camera"
 date: 2022-09-21T14:05:46-07:00
 draft: false
 description: "Programming Vision"
-weight: 0
+weight: 1
 ---
 
 Vision is an essential component for your robot and yourself especially when it comes to compeititions, as in some scenerios your robot drivers may not have a clear point of view of the robot, or desired target.

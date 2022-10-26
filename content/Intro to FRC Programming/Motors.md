@@ -3,7 +3,7 @@ title: "Motors"
 date: 2022-09-21T14:03:50-07:00
 draft: false
 description: "High powered movement and control"
-weight: 0
+weight: 7
 ---
 
 #### Programming Motors
@@ -29,7 +29,7 @@ public class Robot extends TimedRobot {
     public PWMSparkMax neoMotor;
 
     //intialising the TalonFX motor controller that is built into the Falcon motoe, and naming it falconMotor
-    public TalonFX falconMotor,
+    public TalonFX falconMotor;
 
     @Override
     public void robotInit() {

@@ -3,7 +3,7 @@ title: "CANivore"
 date: 2022-09-21T14:06:08-07:00
 draft: false
 description: "Expanding Your CAN Wiring and Comunication Length"
-weight: 0
+weight: 8
 ---
 
 ![Java Installation](/gifs/programming/canivore.png?width=200px)

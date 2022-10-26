@@ -3,7 +3,7 @@ title: "Encoder"
 date: 2022-09-21T14:05:12-07:00
 draft: false
 description: "Counting Motor Rotations"
-weight: 0
+weight: 5
 ---
 
 For the following example we will be teaching you how to program and use the REV Robotics CAN Encoder, a very reliable and useful device.
@@ -33,6 +33,8 @@ public class Robot extends TimedRobot {
 
     @Override
     public  void robotPeriodic() {
+        //printing the output of the encoder in the console one the robot is enabled by using the .getDistance() method
+        System.out.println(exampleEncoder.getDistance());
     }
 
     @Override
@@ -65,6 +67,10 @@ public class Robot extends TimedRobot {
 {{< /tabs >}}
 
 #### Explanation
-We start off by importing the required libraries which depend on on the gyro you are using. In the example above we than initiate the objects for the gyros and then are able to use the method called ```.getAngle()``` which allows us to return its value that it reads in the console or other FRC tools such as the smart dashboard or shuffleboard.
+We start off by importing the required library for the CAN Encoder. In the example above we then initiate the object for the encoder and then to use the method called ```.getDistance()``` to print the value in the console. genrally speaking using the console is not a good place to print all your value, a better way would be to use the FRC Smart Dashboard or Shuffleboard.
 
-There are many more methods for the gyros but we have explained the basics needed, for more information on the AHRS gyro please read [here](https://github.com/maxgdn/NavX-Mxp-java-examples/blob/master/DataMonitor/src/org/usfirst/frc/team2465/robot/Robot.java) or at the [Java Docs Here](https://www.kauailabs.com/public_files/navx-mxp/apidocs/java/com/kauailabs/navx/frc/AHRS.html). You can also read up about the pigeon over [here](https://docs.ctre-phoenix.com/en/stable/ch11_BringUpPigeon.html)
+To learn more about using the **FRC Shuffleboard** please read [here.](https://docs.wpilib.org/en/stable/docs/software/dashboards/shuffleboard/index.html)
+
+To learn more about using the **FRC Smart Dashboard** please read [here.](https://docs.wpilib.org/en/stable/docs/software/dashboards/smartdashboard/index.html)
+
+There are many more methods when it comes to using ecoders such as setting a specific distance per pule for more intense calculations, to read more regarding programming encoders please visit [here](https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages/blob/master/Java%20General/CANCoder/src/main/java/frc/robot/Robot.java), or over [here.](https://docs.ctre-phoenix.com/en/latest/ch12a_BringUpCANCoder.html)
